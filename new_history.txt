@@ -605,3 +605,7 @@ exit()
   299  vi new_history.txt 
   300  ./historyTOgithub.sh 
   301  history >> new_history.txt 
+historyTOgithub.sh
+history.txt
+new_history.txt
+README.md
