@@ -1,614 +1,3003 @@
-    1  sudo apt update
-    2  sudo apt upgrade
-    3  exit
-    4  tar -xvf /home/drax/Desktop/DATA/final_copy.tar.gz 
-    5  tar -xvf /home/drax/Desktop/DATA/study.tar.gz 
-    6  tar -xvf /home/drax/Desktop/DATA/personal_data.tar.gz 
-    7  tar -xvf /home/drax/Desktop/DATA/webcams.tar.gz 
-    8  tar -xvf /home/drax/Desktop/DATA/dotnet.tar.gz 
-    9  vi sites.txt
-   10  exit
-   11  python --version
-   12  py
-   13  python
-   14  python2
-   15  python3
-   16  python3 --version
-   17  sudo apt install python3.7
-   18  python3
-   19  python3 --version
-   20  python3.7 --version
-   21  python3.7
-   22  gcc
-   23  g++
-   24  sudo apt update
-   25  gcc --version
-   26  sudo apt install build-essential
-   27  gcc --version
-   28  g++ --version
-   29  man g++
-   30  php
-   31  mysql
-   32  mysqlserver
-   33  sudo apt update
-   34  sudo apt install mysql-server
-   35  sudo systemctl status mysql
-   36  top
-   37  go
-   38  go version
-   39  exit
-   40  sudo snap install udemy
-   41  exit
-   42  $HOME
-   43  cd $HOME
-   44  ls
-   45  cd /etc/
-   46  ls
-   47  cd ssh
-   48  ls
-   49  ls -la
-   50  cd $HOME
-   51  ls -al ~/.ssh
-   52  cat ~/.ssh/known_hosts 
-   53  ssh-keygen -t rsa -b 4096 -C "amren1254@gmail.com"
-   54  ls -al ~/.ssh
-   55  cd /.ssh
-   56  cd ~/.ssh
-   57  ls
-   58  cat id_rsa
-   59  cat id_rsa.pub 
-   60  clear
-   61  cat id_rsa.pub 
-   62  exit
-   63  ls
-   64  cd ML/
-   65  ls
-   66  ls -la
-   67  python3
-   68  python2.7
-   69  python3.7
-   70  ls
-   71  git
-   72  sudo apt install git
-   73  git clone git@github.com:amren1254/ML_Practice.git
-   74  ls
-   75  cd ML_Practice/
-   76  ls
-   77  vi README.md 
-   78  vi numpy.py
-   79  gvim
-   80  sudo apt install vim
-   81  vim numpy.py 
-   82  vi numpy.py 
-   83  sudo apt autoremove
-   84  ls
-   85  vi numpy.py 
-   86  git add numpy.py 
-   87  git commit -m "First test commit"
-   88  git confit --global user.email "amren1254@gmail.com"
-   89  git config --global user.email "amren1254@gmail.com"
-   90  git commit -m "First test commit"
-   91  git push origin master
-   92  cd ..
-   93  git clone git@github.com:amren1254/net_banking.git
-   94  ls
-   95  cd net_banking/
-   96  ls
-   97  vi first.py 
-   98  git add first.py 
-   99  git commit -m "Test commit "
-  100  git push origin master
-  101  git clone git@github.com:amren1254/net_banking.git
-  102  git config --global user.email "amren1254@gmail.com"
-  103  git push origin master
-  104  cd ..
-  105  cd ML_Practice/
-  106  ls
-  107  vi numpy.py 
-  108  python3.7 numpy.py 
-  109  python3.7 -m venv 
-  110  python3.7 -m venv /home/drax/ML/ML_Practice/
-  111  sudo apt install python3.7-venv
-  112  python3.7 -m venv /home/drax/ML/ML_Practice/
-  113  python3.7 -m venv ~/ML/ML_Practice/
-  114  pip
-  115  pip3 --version
-  116  pip --version
-  117  sudo apt install python3.7-pip
-  118  sudo apt install python3-pip
-  119  pip --version
-  120  pip3 --version
-  121  pip3 install virtualenv
-  122  virtualenv --version
-  123  virtualenv2 --version
-  124  virtualenv3 --version
-  125  virtualenv
-  126  sudo apt install virtualenv
-  127  virtualenv --version
-  128  virtualenv ML_Practice
-  129  virtualenv -p /usr/bin/python3 ml_practice
-  130  source ml_practice/bin/activate
-  131  pip3 install bs4
-  132  python3 numpy.py 
-  133  pip3 install requests
-  134  python3 numpy.py 
-  135  vi numpy.py 
-  136  python3 numpy.py 
-  137  vi numpy.py 
-  138  python3 numpy.py 
-  139  vi numpy.py 
-  140  python3 numpy.py 
-  141  vi numpy.py 
-  142  python3 numpy.py 
-  143  vi numpy.py 
-  144  python3 numpy.py 
-  145  vi numpy.py 
-  146  python3 numpy.py 
-  147  vi numpy.py 
-  148  python3 numpy.py 
-  149  ls
-  150  vi turnstile_200307.txt 
-  151  ls -la
-  152  cd share/
-  153  ls
-  154  cd ..
-  155  git add numpy.py 
-  156  git commit -m "Scrap data using beautiful soup "
-  157  git push origin master
-  158  vi numpy.py 
-  159  git add numpy.py 
-  160  git commit -m "comment to understand code"
-  161  git push origin master
-  162  ls
-  163  vi numpy.py 
-  164  vi n1.py
-  165  python3 n1.py 
-  166  vi n1.py 
-  167  python3 n1.py 
-  168  vi n1.py 
-  169  python3 n1.py 
-  170  vi n1.py 
-  171  python3 n1.py 
-  172  pip3 install numpy
-  173  python3 n1.py 
-  174  pip list
-  175  pip3 list
-  176  python3
-  177  deactivate
-  178  ls
-  179  python3 n1.py 
-  180  pip
-  181  pip list
-  182  pip3 list
-  183  python3 
-  184  mv numpy.py numpy1.py
-  185  ls
-  186  source ml_practice/activate
-  187  source ml_practice/bin/activate
-  188  python3 n1.py 
-  189  git add n1.py 
-  190  git commit -m "Script to check numpy version and configuration"
-  191  git push origin master
-  192  vi n2.py
-  193  python3 n2.py 
-  194  python3 
-  195  vi n2.py 
-  196  python3 n2.py 
-  197  vi n2
-  198  vi n2.py 
-  199  python3 n2.py 
-  200  git add n2.py 
-  201  git commit -m "Info script for numpy"
-  202  git push origin master
-  203  ls
-  204  vi n3.py
-  205  python3 n3.py 
-  206  vi n3.py
-  207  python3 n3.py 
-  208  git add n3.py 
-  209  git commit -m "checked whether numpy array contains zero or not"
-  210  git push origin master
-  211  deactivate
-  212  vi pandas_problems.py
-  213  source ml_practice/bin/activate
-  214  python3 pandas_problems.py 
-  215  pip list
-  216  pip3 list
-  217  pip3 install pandas
-  218  sudo apt update
-  219  sudo apt install sublime-text
-  220  clear
-  221  history
-  222  crontab
-  223  crontab -e
-  224  vi historyTOgithub.sh
-  225  ls
-  226  ./historyTOgithub.sh
-  227  chmod +x historyTOgithub.sh 
-  228  ./historyTOgithub.sh 
-  229  which bash
-  230  vi historyTOgithub.sh 
-  231  ./historyTOgithub.sh 
-  232  history << history.txt
-
-
-exit()
-
-  233  ls
-  234  vi historyTOgithub.sh 
-  235  ./historyTOgithub.sh 
-  236  ls
-  237  vi history.txt 
-  238  ./historyTOgithub.sh 
-  239  vi history.txt 
-  240  history >> history.txt
-  241  vi history.txt 
-  242  vi historyTOgithub.sh 
-  243  ./historyTOgithub.sh 
-  244  vi history.txt 
-  245  rm history.txt 
-  246  ls
-  247  ./historyTOgithub.sh 
-  248  vi history.txt 
-  249  vi historyTOgithub.sh 
-  250  ./historyTOgithub.sh 
-  251  history
-  252  ./historyTOgithub.sh 
-  253  vi historyTOgithub.sh 
-  254  ./historyTOgithub.sh 
-  255  vi historyTOgithub.sh 
-  256  ./historyTOgithub.sh 
-  257  vi history.txt 
-  258  vi historyTOgithub.sh 
-  259  ./historyTOgithub.sh 
-  260  history | less
-  261  vi historyTOgithub.sh 
-  262  ./historyTOgithub.sh 
-  263  vi history.txt 
-  264  vi historyTOgithub.sh 
-  265  ls
-  266  mkdir github
-  267  ls
-  268  cd github/
-  269  ls
-  270  cd ..
-  271  mv historyTOgithub.sh ~/github/
-  272  ls
-  273  rm history.txt 
-  274  cd github/
-  275  ls
-  276  git add git@github.com:amren1254/linuxJourney.git
-  277  git init
-  278  echo "linux journey" >> README.md
-  279  git add README.md 
-  280  git commit -m "Initial commit"
-  281  git remote add origin git@github.com:amren1254/linuxJourney.git
-  282  git push -u origin master
-  283  ls
-  284  ./historyTOgithub.sh 
-  285  vi historyTOgithub.sh 
-  286  ./historyTOgithub.sh 
-  287  vi historyTOgithub.sh 
-  288  vi new_history.txt 
-  289  vi historyTOgithub.sh 
-  290  crontab -e
-  291  pwd
-  292  ./historyTOgithub.sh 
-  293  where
-  294  history
-  295  clear
-  296  vi historyTOgithub.sh 
-  297  vi new_history.txt 
-  298  history >> new_history.txt 
-    1  sudo apt update
-    2  sudo apt upgrade
-    3  exit
-    4  tar -xvf /home/drax/Desktop/DATA/final_copy.tar.gz 
-    5  tar -xvf /home/drax/Desktop/DATA/study.tar.gz 
-    6  tar -xvf /home/drax/Desktop/DATA/personal_data.tar.gz 
-    7  tar -xvf /home/drax/Desktop/DATA/webcams.tar.gz 
-    8  tar -xvf /home/drax/Desktop/DATA/dotnet.tar.gz 
-    9  vi sites.txt
-   10  exit
-   11  python --version
-   12  py
-   13  python
-   14  python2
-   15  python3
-   16  python3 --version
-   17  sudo apt install python3.7
-   18  python3
-   19  python3 --version
-   20  python3.7 --version
-   21  python3.7
-   22  gcc
-   23  g++
-   24  sudo apt update
-   25  gcc --version
-   26  sudo apt install build-essential
-   27  gcc --version
-   28  g++ --version
-   29  man g++
-   30  php
-   31  mysql
-   32  mysqlserver
-   33  sudo apt update
-   34  sudo apt install mysql-server
-   35  sudo systemctl status mysql
-   36  top
-   37  go
-   38  go version
-   39  exit
-   40  sudo snap install udemy
-   41  exit
-   42  $HOME
-   43  cd $HOME
-   44  ls
-   45  cd /etc/
-   46  ls
-   47  cd ssh
-   48  ls
-   49  ls -la
-   50  cd $HOME
-   51  ls -al ~/.ssh
-   52  cat ~/.ssh/known_hosts 
-   53  ssh-keygen -t rsa -b 4096 -C "amren1254@gmail.com"
-   54  ls -al ~/.ssh
-   55  cd /.ssh
-   56  cd ~/.ssh
-   57  ls
-   58  cat id_rsa
-   59  cat id_rsa.pub 
-   60  clear
-   61  cat id_rsa.pub 
-   62  exit
-   63  ls
-   64  cd ML/
-   65  ls
-   66  ls -la
-   67  python3
-   68  python2.7
-   69  python3.7
-   70  ls
-   71  git
-   72  sudo apt install git
-   73  git clone git@github.com:amren1254/ML_Practice.git
-   74  ls
-   75  cd ML_Practice/
-   76  ls
-   77  vi README.md 
-   78  vi numpy.py
-   79  gvim
-   80  sudo apt install vim
-   81  vim numpy.py 
-   82  vi numpy.py 
-   83  sudo apt autoremove
-   84  ls
-   85  vi numpy.py 
-   86  git add numpy.py 
-   87  git commit -m "First test commit"
-   88  git confit --global user.email "amren1254@gmail.com"
-   89  git config --global user.email "amren1254@gmail.com"
-   90  git commit -m "First test commit"
-   91  git push origin master
-   92  cd ..
-   93  git clone git@github.com:amren1254/net_banking.git
-   94  ls
-   95  cd net_banking/
-   96  ls
-   97  vi first.py 
-   98  git add first.py 
-   99  git commit -m "Test commit "
-  100  git push origin master
-  101  git clone git@github.com:amren1254/net_banking.git
-  102  git config --global user.email "amren1254@gmail.com"
-  103  git push origin master
-  104  cd ..
-  105  cd ML_Practice/
-  106  ls
-  107  vi numpy.py 
-  108  python3.7 numpy.py 
-  109  python3.7 -m venv 
-  110  python3.7 -m venv /home/drax/ML/ML_Practice/
-  111  sudo apt install python3.7-venv
-  112  python3.7 -m venv /home/drax/ML/ML_Practice/
-  113  python3.7 -m venv ~/ML/ML_Practice/
-  114  pip
-  115  pip3 --version
-  116  pip --version
-  117  sudo apt install python3.7-pip
-  118  sudo apt install python3-pip
-  119  pip --version
-  120  pip3 --version
-  121  pip3 install virtualenv
-  122  virtualenv --version
-  123  virtualenv2 --version
-  124  virtualenv3 --version
-  125  virtualenv
-  126  sudo apt install virtualenv
-  127  virtualenv --version
-  128  virtualenv ML_Practice
-  129  virtualenv -p /usr/bin/python3 ml_practice
-  130  source ml_practice/bin/activate
-  131  pip3 install bs4
-  132  python3 numpy.py 
-  133  pip3 install requests
-  134  python3 numpy.py 
-  135  vi numpy.py 
-  136  python3 numpy.py 
-  137  vi numpy.py 
-  138  python3 numpy.py 
-  139  vi numpy.py 
-  140  python3 numpy.py 
-  141  vi numpy.py 
-  142  python3 numpy.py 
-  143  vi numpy.py 
-  144  python3 numpy.py 
-  145  vi numpy.py 
-  146  python3 numpy.py 
-  147  vi numpy.py 
-  148  python3 numpy.py 
-  149  ls
-  150  vi turnstile_200307.txt 
-  151  ls -la
-  152  cd share/
-  153  ls
-  154  cd ..
-  155  git add numpy.py 
-  156  git commit -m "Scrap data using beautiful soup "
-  157  git push origin master
-  158  vi numpy.py 
-  159  git add numpy.py 
-  160  git commit -m "comment to understand code"
-  161  git push origin master
-  162  ls
-  163  vi numpy.py 
-  164  vi n1.py
-  165  python3 n1.py 
-  166  vi n1.py 
-  167  python3 n1.py 
-  168  vi n1.py 
-  169  python3 n1.py 
-  170  vi n1.py 
-  171  python3 n1.py 
-  172  pip3 install numpy
-  173  python3 n1.py 
-  174  pip list
-  175  pip3 list
-  176  python3
-  177  deactivate
-  178  ls
-  179  python3 n1.py 
-  180  pip
-  181  pip list
-  182  pip3 list
-  183  python3 
-  184  mv numpy.py numpy1.py
-  185  ls
-  186  source ml_practice/activate
-  187  source ml_practice/bin/activate
-  188  python3 n1.py 
-  189  git add n1.py 
-  190  git commit -m "Script to check numpy version and configuration"
-  191  git push origin master
-  192  vi n2.py
-  193  python3 n2.py 
-  194  python3 
-  195  vi n2.py 
-  196  python3 n2.py 
-  197  vi n2
-  198  vi n2.py 
-  199  python3 n2.py 
-  200  git add n2.py 
-  201  git commit -m "Info script for numpy"
-  202  git push origin master
-  203  ls
-  204  vi n3.py
-  205  python3 n3.py 
-  206  vi n3.py
-  207  python3 n3.py 
-  208  git add n3.py 
-  209  git commit -m "checked whether numpy array contains zero or not"
-  210  git push origin master
-  211  deactivate
-  212  vi pandas_problems.py
-  213  source ml_practice/bin/activate
-  214  python3 pandas_problems.py 
-  215  pip list
-  216  pip3 list
-  217  pip3 install pandas
-  218  sudo apt update
-  219  sudo apt install sublime-text
-  220  clear
-  221  history
-  222  crontab
-  223  crontab -e
-  224  vi historyTOgithub.sh
-  225  ls
-  226  ./historyTOgithub.sh
-  227  chmod +x historyTOgithub.sh 
-  228  ./historyTOgithub.sh 
-  229  which bash
-  230  vi historyTOgithub.sh 
-  231  ./historyTOgithub.sh 
-  232  history << history.txt
-
-
-exit()
-
-  233  ls
-  234  vi historyTOgithub.sh 
-  235  ./historyTOgithub.sh 
-  236  ls
-  237  vi history.txt 
-  238  ./historyTOgithub.sh 
-  239  vi history.txt 
-  240  history >> history.txt
-  241  vi history.txt 
-  242  vi historyTOgithub.sh 
-  243  ./historyTOgithub.sh 
-  244  vi history.txt 
-  245  rm history.txt 
-  246  ls
-  247  ./historyTOgithub.sh 
-  248  vi history.txt 
-  249  vi historyTOgithub.sh 
-  250  ./historyTOgithub.sh 
-  251  history
-  252  ./historyTOgithub.sh 
-  253  vi historyTOgithub.sh 
-  254  ./historyTOgithub.sh 
-  255  vi historyTOgithub.sh 
-  256  ./historyTOgithub.sh 
-  257  vi history.txt 
-  258  vi historyTOgithub.sh 
-  259  ./historyTOgithub.sh 
-  260  history | less
-  261  vi historyTOgithub.sh 
-  262  ./historyTOgithub.sh 
-  263  vi history.txt 
-  264  vi historyTOgithub.sh 
-  265  ls
-  266  mkdir github
-  267  ls
-  268  cd github/
-  269  ls
-  270  cd ..
-  271  mv historyTOgithub.sh ~/github/
-  272  ls
-  273  rm history.txt 
-  274  cd github/
-  275  ls
-  276  git add git@github.com:amren1254/linuxJourney.git
-  277  git init
-  278  echo "linux journey" >> README.md
-  279  git add README.md 
-  280  git commit -m "Initial commit"
-  281  git remote add origin git@github.com:amren1254/linuxJourney.git
-  282  git push -u origin master
-  283  ls
-  284  ./historyTOgithub.sh 
-  285  vi historyTOgithub.sh 
-  286  ./historyTOgithub.sh 
-  287  vi historyTOgithub.sh 
-  288  vi new_history.txt 
-  289  vi historyTOgithub.sh 
-  290  crontab -e
-  291  pwd
-  292  ./historyTOgithub.sh 
-  293  where
-  294  history
-  295  clear
-  296  vi historyTOgithub.sh 
-  297  vi new_history.txt 
-  298  history >> new_history.txt 
-  299  vi new_history.txt 
-  300  ./historyTOgithub.sh 
-  301  history >> new_history.txt 
-historyTOgithub.sh
-history.txt
-new_history.txt
-README.md
+ 1131  go build
+ 1132  echo $GOPATH
+ 1133  cd
+ 1134  rm -rf go1.16/
+ 1135  sudo rm -rf go1.16/
+ 1136  echo $GOPATH
+ 1137  cd -
+ 1138  go build
+ 1139  cd
+ 1140  ls
+ 1141  sudo rm -rf go1.16/
+ 1142  ls
+ 1143  vi .profile 
+ 1144  source .profile 
+ 1145  cd -
+ 1146  go build
+ 1147  echo $GOPATH
+ 1148  go env
+ 1149  cd /snap/bin
+ 1150  ls
+ 1151  go
+ 1152  ls
+ 1153  cd
+ 1154  vi .profile 
+ 1155  source .profile 
+ 1156  go env
+ 1157  vi .profile 
+ 1158  source .profile 
+ 1159  go env
+ 1160  cd -
+ 1161  cd 
+ 1162  cd unit/nunit-go/
+ 1163  go build
+ 1164  go version
+ 1165  echo $GOPATH
+ 1166  ls
+ 1167  go build
+ 1168  which go
+ 1169  cd
+ 1170  rm -rvf /snap/bin/go
+ 1171  sudo rm -rvf /snap/bin/go
+ 1172  go
+ 1173  go env
+ 1174  cd go
+ 1175  ls
+ 1176  cd ..
+ 1177  cd /usr/
+ 1178  cd local/
+ 1179  ls
+ 1180  cd ..
+ 1181  vi .profil
+ 1182  cd
+ 1183  vi .profile 
+ 1184  source .profile 
+ 1185  ls
+ 1186  cd snap/
+ 1187  ls
+ 1188  cd go
+ 1189  ls
+ 1190  go 
+ 1191  ls
+ 1192  cd 7954/
+ 1193  ls
+ 1194  ll
+ 1195  cd ..
+ 1196  cd 
+ 1197  cd snap/
+ 1198  ls
+ 1199  rm -rf go
+ 1200  ls
+ 1201  go
+ 1202  cd ..
+ 1203  ls
+ 1204  rm -rf go
+ 1205  sudo rm go
+ 1206  sudo rm -rf go
+ 1207  ls
+ 1208  cd gobyexample/
+ 1209  ls
+ 1210  cd ..
+ 1211  rm -rf gobyexample/
+ 1212  ls
+ 1213  cd snap/
+ 1214  ls
+ 1215  cd goland/
+ 1216  ls
+ 1217  cd ..
+ 1218  cd
+ 1219  ls
+ 1220  clear
+ 1221  cd unit/nunit-go/
+ 1222  go build
+ 1223  cd
+ 1224  rm -rf /usr/local/go
+ 1225  sudo tar -C /usr/local/ -xzf ~/Downloads/Amrendra/go1.16.6.linux-amd64.tar.gz 
+ 1226  vi .profile 
+ 1227  source .profile 
+ 1228  go
+ 1229  go version
+ 1230  echo $GOPATH
+ 1231  go env
+ 1232  cd unit/nunit-go/
+ 1233  go build
+ 1234  cd
+ 1235  cd work/tcs/
+ 1236  cd nunit-go/
+ 1237  go build
+ 1238  go mod init
+ 1239  go mod init hello
+ 1240  go mod tidy
+ 1241  go build
+ 1242  clear
+ 1243  cd ..
+ 1244  cd ../flahmingo/
+ 1245  ls
+ 1246  cd otp_service/grpc_otp_service/
+ 1247  ./server 
+ 1248  go build ./cmd/server/
+ 1249  clear
+ 1250  exit
+ 1251  ls
+ 1252  cd work/tcs/
+ 1253  ls
+ 1254  cd nunit-go/
+ 1255  ls
+ 1256  code .
+ 1257  cd ..
+ 1258  systemctl status nunit
+ 1259  systemctl status unit
+ 1260  cd ..
+ 1261  cd weekend/vagrant_getting_started/
+ 1262  ls
+ 1263  vagrant up
+ 1264  vagrant ssh
+ 1265  vagrant -h
+ 1266  vagrant status
+ 1267  vagrant suspend
+ 1268  cd ..
+ 1269  cd work/tcs/
+ 1270  ls
+ 1271  systemctl status unit
+ 1272  systemctl start unit
+ 1273  systemctl status unit
+ 1274  cd /usr/sbin/
+ 1275  ll
+ 1276  ls |grep unitd
+ 1277  ll |grep unitd
+ 1278  unitd
+ 1279  cd /var/run
+ 1280  ll
+ 1281  ll |grep control
+ 1282  cat control.unit.sock 
+ 1283  sudo cat control.unit.sock 
+ 1284  cd systemd/
+ 1285  ls
+ 1286  cd unit-root/
+ 1287  ls
+ 1288  sudo unit-root/
+ 1289  sudo cd unit-root/
+ 1290  sudo
+ 1291  su
+ 1292  su -
+ 1293  sudo -s
+ 1294  ls
+ 1295  cd ..
+ 1296  ls
+ 1297  cd ..
+ 1298  c
+ 1299  cd
+ 1300  ls
+ 1301  cd 'VirtualBox VMs'/
+ 1302  ls
+ 1303  cd vagrant_getting_started_default_1627061957800_75406/
+ 1304  ls
+ 1305  cd ..
+ 1306  cd 
+ 1307  ls
+ 1308  cd unit/
+ 1309  ;s
+ 1310  ls
+ 1311  ps aufx | tail
+ 1312  systemctl stop unit
+ 1313  ps aufx | tail
+ 1314  clear
+ 1315  ls
+ 1316  ./configure go
+ 1317  cd ./build/
+ 1318  ls
+ 1319  ./unitd -control 127.0.0.1:4444
+ 1320  ./unitd -h
+ 1321  ./unitd --control 127.0.0.1:4444
+ 1322  curl localhost:4444
+ 1323  cd ..
+ 1324  curl localhost:4444
+ 1325  ls
+ 1326  cd pkg/
+ 1327  ls
+ 1328  cd ..
+ 1329  cd src/
+ 1330  ls
+ 1331  cd ..
+ 1332  cp /home/drax/work/tcs/nunit-go/ /home/drax/unit/
+ 1333  cp -r /home/drax/work/tcs/nunit-go/ /home/drax/unit/
+ 1334  ls
+ 1335  cd nunit-go/
+ 1336  ls
+ 1337  cd ..
+ 1338  clear
+ 1339  ps aufx | tail
+ 1340  ./configure --control 127.0.0.1:4545
+ 1341  ls
+ 1342  historoy
+ 1343  history
+ 1344  ./unitd --control 127.0.0.1:4444
+ 1345  ls
+ 1346  ./build/unitd --control 127.0.0.1:4444
+ 1347  curl localhost:4444
+ 1348  cd -
+ 1349  cd ~
+ 1350  ls
+ 1351  cd -
+ 1352  cd +
+ 1353  clear
+ 1354  ls
+ 1355  cd ..
+ 1356  ls
+ 1357  mkdir demo
+ 1358  cd demo/
+ 1359  ls
+ 1360  touch demo.json
+ 1361  vi demo.json 
+ 1362  ls
+ 1363  cat demo.json 
+ 1364  cd ..
+ 1365  ls
+ 1366  ./configure go
+ 1367  go
+ 1368  exit
+ 1369  go
+ 1370  sudo snap install go
+ 1371  snap help refresh
+ 1372  snap help refresh --list
+ 1373  snap refresh --list
+ 1374  sudo snap install go
+ 1375  snap list
+ 1376  go
+ 1377  snap info go
+ 1378  go.gofmt
+ 1379  go
+ 1380  sudo snap install go
+ 1381  snap help refresh
+ 1382  snap refresh --stable
+ 1383  snap refresh go --stable
+ 1384  go
+ 1385  vi .profile 
+ 1386  cd /usr/local/
+ 1387  ls
+ 1388  cd go/
+ 1389  ls
+ 1390  cd
+ 1391  ls
+ 1392  go
+ 1393  ls
+ 1394  source .profile 
+ 1395  go
+ 1396  exit
+ 1397  go
+ 1398  cd /etc/
+ 1399  ls
+ 1400  sudo vi profile
+ 1401  go
+ 1402  exit
+ 1403  go
+ 1404  source .profile 
+ 1405  go
+ 1406  echo $GOPATH
+ 1407  ls
+ 1408  exit
+ 1409  go
+ 1410  clear
+ 1411  cd unit/nunit-go/
+ 1412  go build
+ 1413  cd
+ 1414  cd work/flahmingo/
+ 1415  cd otp_service/grpc_otp_service/
+ 1416  go build ./cmd/server/
+ 1417  ls
+ 1418  exit
+ 1419  ps aufx |tail
+ 1420  clear
+ 1421  ps aufx |tail
+ 1422  cd work/tcs/
+ 1423  ls
+ 1424  cd docs/
+ 1425  code unit.md 
+ 1426  ps aufx |tail
+ 1427  ps aufx 
+ 1428  kill unit
+ 1429  pkill 58946
+ 1430  ps aufx 
+ 1431  pkill 47946
+ 1432  ps aufx 
+ 1433  exit
+ 1434  curl localhost:8080
+ 1435  clear
+ 1436  cd ..
+ 1437  cd unit/
+ 1438  cd demo/
+ 1439  ls
+ 1440  cd ..
+ 1441  curl -X PUT -d@demo/demo.json '127.0.0.1:4333'
+ 1442  curl -X PUT -d@demo/demo.json '127.0.0.1:4444'
+ 1443  cd ..
+ 1444  ls
+ 1445  cd nunit-go/
+ 1446  ls
+ 1447  hello
+ 1448  ./hello 
+ 1449  curl localhost:8080
+ 1450  cd ..
+ 1451  cd nunit-go/
+ 1452  code .
+ 1453  curl localhost:8080
+ 1454  go build 
+ 1455  curl localhost:8080
+ 1456  ./hello 
+ 1457  curl localhost:8080
+ 1458  cd .
+ 1459  cd ..
+ 1460  cd unit/
+ 1461  ls
+ 1462  cd demo/
+ 1463  ls
+ 1464  cd ..
+ 1465  ls
+ 1466  vi demo/demo.json 
+ 1467  curl -X PUT -d@demo/demo.json '127.0.0.1:4444'
+ 1468  cat demo/demo.json 
+ 1469  curl -X PUT -d@demo/demo.json '127.0.0.1:8500'
+ 1470  ./build/unitd --control 127.0.0.1:8500
+ 1471  ps aufx |tail
+ 1472  curl -X PUT -d@demo/demo.json '127.0.0.1:8500'
+ 1473  netstat -tulnp | grep unit
+ 1474  cd ..
+ 1475  cd work/tcs/
+ 1476  mkdir docs
+ 1477  cd docs/
+ 1478  touch unit.md
+ 1479  code unit.md 
+ 1480  cd
+ 1481  cd unit/
+ 1482  cd demo
+ 1483  cat demo.json 
+ 1484  cd $HOME/nunit-go
+ 1485  ls
+ 1486  ./hello 
+ 1487  curl -X PUT -d@demo/demo.json '127.0.0.1:8500/config'
+ 1488  cd -
+ 1489  curl -X PUT -d@demo/demo.json '127.0.0.1:8500/config'
+ 1490  cd ..
+ 1491  curl -X PUT -d@demo/demo.json '127.0.0.1:8500/config'
+ 1492  curl -X PUT -d@demo/demo.json '127.0.0.1:4444/config'
+ 1493  curl -X PUT -d@demo/demo.json '127.0.0.1:4445/config'
+ 1494  curl -X PUT -d@demo/demo.json '127.0.0.1:8500/config'
+ 1495  cat unit.log 
+ 1496  vi demo/demo.json 
+ 1497  curl -X PUT -d@demo/demo.json '127.0.0.1:8500/config'
+ 1498  curl -X PUT -d@demo/demo.json '127.0.0.1:8501/config'
+ 1499  curl -X PUT -d@demo/demo.json '127.0.0.1:8500/config'
+ 1500  ls -ld /tmp/
+ 1501  curl -X PUT -d@demo/demo.json '127.0.0.1:8500/config'
+ 1502  systemctl status unit
+ 1503  curl -X PUT 
+ 1504  curl -X PUT -d@demo/demo.json '127.0.0.1:8500/config'
+ 1505  vi demo/demo.json 
+ 1506  curl -X PUT -d@demo/demo.json '127.0.0.1:8500/config'
+ 1507  curl -X PUT -d@demo/demo.json '127.0.0.1:8500'
+ 1508  curl -X PUT -d@demo/demo.json '127.0.0.1:8500/config'
+ 1509  vi demo/demo.json 
+ 1510  cd ..
+ 1511  systemctl status unit
+ 1512  unit --help
+ 1513  cd unit/
+ 1514  ls
+ 1515  cd build/
+ 1516  ls
+ 1517  ./unitd -h
+ 1518  ./unitd --version
+ 1519  cd ..
+ 1520  cd work/tcs/
+ 1521  ls
+ 1522  touch unit.sh
+ 1523  vi unit.sh 
+ 1524  ls
+ 1525  chmod +x unit.sh 
+ 1526  ./unit.sh 
+ 1527  vi unit.sh 
+ 1528  ./unit.sh 
+ 1529  vi unit.sh 
+ 1530  cd /var/lib/
+ 1531  ls
+ 1532  cd -
+ 1533  vi unit.sh 
+ 1534  ./unit.sh 
+ 1535  cd
+ 1536  cd work/tcs/
+ 1537  cd nunit-go/
+ 1538  ls
+ 1539  go build
+ 1540  cd ..
+ 1541  vi unit.sh 
+ 1542  curl localhost:8080
+ 1543  ./unit.sh 
+ 1544  curl localhost:8080
+ 1545  cd nunit-go/
+ 1546  code .
+ 1547  go build
+ 1548  cd ..
+ 1549  ./unit.sh 
+ 1550  curl localhost:8080
+ 1551  exit
+ 1552  curl localhost:8080
+ 1553  cat app.go 
+ 1554  exit
+ 1555  cd unit/
+ 1556  ls
+ 1557  ./configure go
+ 1558  export $GOPATH=/home/drax/unit/go
+ 1559  export $GOPATH = /home/drax/unit/go
+ 1560  export $GOPATH=$HOME/unit/go
+ 1561  export $GOPATH $HOME/unit/go
+ 1562  export $GOPATH=$HOME/unit/go
+ 1563  echo $GOPATH
+ 1564  go env
+ 1565  cd ..
+ 1566  vi .profile 
+ 1567  source .profile 
+ 1568  vi .profile 
+ 1569  source .profile 
+ 1570  clear
+ 1571  cd unit/
+ 1572  make all
+ 1573  cd build/
+ 1574  ls
+ 1575  ./unitd --control 127.0.0.1:4444
+ 1576  curl localhost:4444
+ 1577  cd ../
+ 1578  ls
+ 1579  cd demo/dem
+ 1580  cd demo/
+ 1581  ls
+ 1582  vi demo.json 
+ 1583  cd ..
+ 1584  cp ~/work/tcs/nunit-go/ /
+ 1585  cp -r ~/work/tcs/nunit-go/ ~/
+ 1586  ls
+ 1587  cd nunit-go/
+ 1588  ls
+ 1589  go build
+ 1590  code .
+ 1591  go get unit.nginx.org/go
+ 1592  cd
+ 1593  sudo apt update
+ 1594  sudo apt install unit
+ 1595  apt install unit-dev unit-go unit-jsc11 unit-jsc15 unit-jsc16 unit-jsc17               unit-perl unit-php unit-python2.7 unit-python3.9 unit-ruby
+ 1596  sudo apt install unit-dev unit-go unit-jsc11 unit-jsc15 unit-jsc16 unit-jsc17               unit-perl unit-php unit-python2.7 unit-python3.9 unit-ruby
+ 1597  sudo apt install unit-dev unit-go
+ 1598  go get unit.nginx.org/go
+ 1599  cd nunit-go/
+ 1600  go build
+ 1601  ./hello 
+ 1602  go build
+ 1603  ./hello 
+ 1604  cd /var/
+ 1605  ls
+ 1606  cd lib/
+ 1607  ls
+ 1608  cd ..
+ 1609  ls
+ 1610  cd ..
+ 1611  ls
+ 1612  cd bin/
+ 1613  ls
+ 1614  cd ..
+ 1615  ls
+ 1616  cd srv/
+ 1617  ls
+ 1618  ll
+ 1619  cd /usr/
+ 1620  ls
+ 1621  cd ..
+ 1622  ls
+ 1623  cd bin/
+ 1624  ls
+ 1625  systemctl status unit
+ 1626  systemctl start unit
+ 1627  systemctl status unit
+ 1628  ls
+ 1629  unit
+ 1630  cd ..
+ 1631  ls
+ 1632  cd /etc/
+ 1633  ls
+ 1634  cd ..
+ 1635  ls
+ 1636  cd lib
+ 1637  ls
+ 1638  cd ..
+ 1639  cd var/
+ 1640  ls
+ 1641  cd lib/
+ 1642  ls
+ 1643  cd ..
+ 1644  ls
+ 1645  cd run/
+ 1646  ls
+ 1647  exit
+ 1648  vagrant ssh
+ 1649  exit
+ 1650  cd work/tcs/
+ 1651  ls
+ 1652  mkdir vagrant
+ 1653  cd vagrant/
+ 1654  vagrant init
+ 1655  vagrant upl
+ 1656  vagrant up
+ 1657  ls
+ 1658  vagrant up
+ 1659  vagrant up -h
+ 1660  vagrant up 
+ 1661  vi Vagrantfile 
+ 1662  vagrant init -h
+ 1663  rm Vagrantfile 
+ 1664  vagrant box list
+ 1665  vagrant init hashicorp/bionic64
+ 1666  vagrant login
+ 1667  vagrant up
+ 1668  vagrant ssh
+ 1669  vagrant up
+ 1670  vagrant ssh
+ 1671  vagrant suspend
+ 1672  systemctl status unit
+ 1673  systemctl stop unit
+ 1674  exit
+ 1675  cd
+ 1676  cd weekend/vagrant_getting_started/
+ 1677  ls
+ 1678  vi Vagrantfile 
+ 1679  cp go1.16.6.linux-amd64.tar.gz ~/work/tcs/vagrant/
+ 1680  go env
+ 1681  go version
+ 1682  history
+ 1683  lsd
+ 1684  exa
+ 1685  zoxide
+ 1686  exit
+ 1687  cd ..
+ 1688  ls
+ 1689  exit
+ 1690  ssh 10.0.2.15
+ 1691  ssh 10.0.2.15 -u vagrant
+ 1692  ssh 10.0.2.15 vagrant@vagrant:2222
+ 1693  cd
+ 1694  vagrant ssh-config | grep IdentityFile
+ 1695  cd work/tcs/vagrant/
+ 1696  vagrant ssh-config | grep IdentityFile
+ 1697  cd
+ 1698  exit
+ 1699  cd
+ 1700  cd work/tcs/ls
+ 1701  cd work/tcs/
+ 1702  ls
+ 1703  cd vagrant/
+ 1704  vagrant up
+ 1705  vagrant ssh
+ 1706  exit
+ 1707  openssl version
+ 1708  python
+ 1709  python3
+ 1710  clear
+ 1711  sudo apt update
+ 1712  $ sudo apt install software-properties-common
+ 1713  sudo apt install software-properties-common
+ 1714  sudo add-apt-repository --yes --update ppa:ansible/ansible
+ 1715  sudo apt install ansible
+ 1716  ansible all -m ping --ask-pass
+ 1717  cd /etc/ansible/
+ 1718  ls
+ 1719  vi hosts 
+ 1720  sudo vi hosts 
+ 1721  ansible all -m ping --ask-pass
+ 1722  ansible all -m ping 
+ 1723  sudo vi hosts 
+ 1724  ansible all -m ping 
+ 1725  sudo vi hosts 
+ 1726  cd
+ 1727  reset
+ 1728  ls
+ 1729  cd work/tcs/
+ 1730  ls
+ 1731  cd docs/
+ 1732  ls
+ 1733  vi unit.md 
+ 1734  cat unit.md 
+ 1735  ls
+ 1736  remarkable unit.md 
+ 1737  cd
+ 1738  wget -qO - https://typora.io/linux/public-key.asc | sudo apt-key add -
+ 1739  sudo add-apt-repository 'deb https://typora.io/linux ./'
+ 1740  sudo apt update
+ 1741  sudo apt-get install typora
+ 1742  typora
+ 1743  sudo apt-get remove typora
+ 1744  sudo apt autoremove
+ 1745  cd work/tcs/vagrant/
+ 1746  cd ..
+ 1747  code docs/unit.md 
+ 1748  rm docs/nginxunit 
+ 1749  cd
+ 1750  ls
+ 1751  rm Hello\ How\ are\ you\ typora.md 
+ 1752  ls
+ 1753  cd -
+ 1754  ls
+ 1755  cd nunit-go/
+ 1756  code .
+ 1757  cd ..
+ 1758  cd docs/
+ 1759  cat unit.md 
+ 1760  cd ..
+ 1761  ls
+ 1762  cat unit.sh 
+ 1763  vi docs/unit.md 
+ 1764  code docs/unit.md 
+ 1765  cd 
+ 1766  cd work/flahmingo/
+ 1767  ls
+ 1768  code flahmingo-central/
+ 1769  cd flahmingo-central/
+ 1770  git pull origin main
+ 1771  exit
+ 1772  cd 
+ 1773  cd work/flahmingo/
+ 1774  cd otp_service/grpc_otp_service/
+ 1775  code .
+ 1776  cd
+ 1777  cd exit
+ 1778  exit
+ 1779  cd ..
+ 1780  cd vagrant/
+ 1781  vagrant ssh
+ 1782  exit
+ 1783  ps aufx |tail
+ 1784  systemctl status unit
+ 1785  systemctl start unit
+ 1786  systemctl status unit
+ 1787  ps aufx |tail
+ 1788  exa
+ 1789  exit
+ 1790  cd weekend/
+ 1791  ls
+ 1792  cd ..
+ 1793  ls
+ 1794  cd work/
+ 1795  ls
+ 1796  cd flahmingo/
+ 1797  ls
+ 1798  cd ..
+ 1799  ls
+ 1800  cd ..
+ 1801  clear
+ 1802  ls
+ 1803  cd github/
+ 1804  ls
+ 1805  cd ..
+ 1806  cd study/
+ 1807  ls
+ 1808  cat b19b349ae6bb90e5d2da78605c5c015b.info 
+ 1809  cd ..
+ 1810  cd weekend/
+ 1811  ls
+ 1812  cd amren1254.github.io/
+ 1813  ls
+ 1814  cd ..
+ 1815  ls
+ 1816  clear
+ 1817  ls
+ 1818  cat intro.txt 
+ 1819  clear
+ 1820  rm intro.txt 
+ 1821  ls
+ 1822  cd portfolio/
+ 1823  ls
+ 1824  cd ..
+ 1825  git clone git@github.com:amren1254/amren1254.git
+ 1826  ls
+ 1827  cd amren1254
+ 1828  lls
+ 1829  ls
+ 1830  code .
+ 1831  git status
+ 1832  git add pacman.svg 
+ 1833  git commit -m "testing:pacman"
+ 1834  git push origin main 
+ 1835  cd ..
+ 1836  cd amren1254.github.io/
+ 1837  code .
+ 1838  cd
+ 1839  sudo apt update
+ 1840  sudo apt upgrade
+ 1841  cd
+ 1842  ls
+ 1843  cd nunit-go/
+ 1844  ls
+ 1845  ./hello 
+ 1846  cat app.go 
+ 1847  clear
+ 1848  exit
+ 1849  cd
+ 1850  rm -rf nunit-go/
+ 1851  ls
+ 1852  curl localhost:8080/hello
+ 1853  clear
+ 1854  exit
+ 1855  curl localhost:3777
+ 1856  curl localhost:3777/ping
+ 1857  exit
+ 1858  curl localhost:3777/ping
+ 1859  exit
+ 1860  cd work/tcs/
+ 1861  ls
+ 1862  cd vagrant/
+ 1863  ls
+ 1864  vagrant up
+ 1865  vagrant ssh
+ 1866  exit
+ 1867  cd ..
+ 1868  ls
+ 1869  cd nunit-go/
+ 1870  code .
+ 1871  curl localhost:8080/hello
+ 1872  systemctl status unit
+ 1873  systectl start unit
+ 1874  systemctl start unit
+ 1875  curl localhost:8080/hello
+ 1876  ls
+ 1877  clear
+ 1878  ls
+ 1879  cd ..
+ 1880  ls
+ 1881  cat unit.sh 
+ 1882  cd gin-sovd/
+ 1883  ls
+ 1884  code .
+ 1885  go mod init ginsovd
+ 1886  go mod tidy
+ 1887  go build
+ 1888  ./ginsovd 
+ 1889  go build
+ 1890  ./ginsovd 
+ 1891  go build
+ 1892  ./ginsovd 
+ 1893  go build
+ 1894  ./ginsovd 
+ 1895  go build
+ 1896  ./ginsovd 
+ 1897  go build
+ 1898  ./ginsovd 
+ 1899  go build
+ 1900  ./ginsovd 
+ 1901  go build
+ 1902  ./ginsovd 
+ 1903  go build
+ 1904  ./ginsovd 
+ 1905  go build
+ 1906  ./ginsovd 
+ 1907  go build
+ 1908  ./ginsovd 
+ 1909  go build
+ 1910  ./ginsovd 
+ 1911  go build
+ 1912  ./ginsovd 
+ 1913  go build
+ 1914  ./ginsovd 
+ 1915  go build
+ 1916  ./ginsovd 
+ 1917  go build
+ 1918  ./ginsovd 
+ 1919  go build
+ 1920  ./ginsovd 
+ 1921  go build
+ 1922  ./ginsovd 
+ 1923  curl localhost:8080/hello
+ 1924  cd ..
+ 1925  cat unit.sh 
+ 1926  cd gin-sovd/
+ 1927  ls
+ 1928  cd nginx-unit/
+ 1929  ls
+ 1930  chmod +x nginx-setup.sh 
+ 1931  ./nginx-setup.sh 
+ 1932  curl localhost:8080/periodic
+ 1933  clear
+ 1934  exit
+ 1935  curl localhost:3777/periodic
+ 1936  exit
+ 1937  cd ~/Downloads/
+ 1938  cd Amrendra/
+ 1939  ls
+ 1940  curl file:///index.html
+ 1941  cd
+ 1942  cd work/tcs/vagrant/
+ 1943  ls
+ 1944  vagrant ssh
+ 1945  exit
+ 1946  systemctl status unit
+ 1947  systemctl start unit
+ 1948  systemctl status unit
+ 1949  ps aufx | tail
+ 1950  cd work/tcs/gin-sovd/
+ 1951  cd nginx-unit/
+ 1952  ls
+ 1953  ./nginx-setup.sh 
+ 1954  systemctl status unit
+ 1955  ./nginx-setup.sh 
+ 1956  ifconfig
+ 1957  ./nginx-setup.sh 
+ 1958  cd ..
+ 1959  ls
+ 1960  go build
+ 1961  ls
+ 1962  cd -
+ 1963  ./nginx-setup.sh 
+ 1964  ps aufx | tail
+ 1965  cd /var/log/
+ 1966  ls
+ 1967  sudo cat access.log 
+ 1968  cd -
+ 1969  ./nginx-setup.sh 
+ 1970  cd /var/run/
+ 1971  ls
+ 1972  ll
+ 1973  vi control.unit.sock 
+ 1974  cat control.unit.sock 
+ 1975  sudo cat control.unit.sock 
+ 1976  curl localhost:4777/periodic -v
+ 1977  exit
+ 1978  cd /var/log/
+ 1979  ls
+ 1980  cat access.log 
+ 1981  sudo cat access.log 
+ 1982  sudo cat access.log -v
+ 1983  ifconfig
+ 1984  sudo cat access.log -v
+ 1985  exit
+ 1986  cd ..
+ 1987  cd vag
+ 1988  cd ..
+ 1989  cd vagrant/
+ 1990  ls
+ 1991  vagrant ssh
+ 1992  exit
+ 1993  cd work/tcs/gin-sovd/nginx-unit/
+ 1994  ls
+ 1995  ./nginx-setup.sh 
+ 1996  systemctl stop unit
+ 1997  exit
+ 1998  cd work/flahmingo/
+ 1999  ls
+ 2000  git clone git@github.com:Flahmingo-Investments/mobile-app-v1.git
+ 2001  cd flahmingo-central/
+ 2002  ls
+ 2003  git pull origin main
+ 2004  cd ..
+ 2005  git clone git@github.com:Flahmingo-Investments/product-docs.git
+ 2006  git clone git@github.com:Flahmingo-Investments/Webhook-Handler.git
+ 2007  git clone git@github.com:Flahmingo-Investments/proto-repo.git
+ 2008  ls
+ 2009  git clone git@github.com:Flahmingo-Investments/trading-service.git
+ 2010  cd account-service/
+ 2011  ls
+ 2012  git pull origin main
+ 2013  cd ..
+ 2014  git clone git@github.com:Flahmingo-Investments/website.git
+ 2015  git clone git@github.com:Flahmingo-Investments/deprecated-mobile-app.git
+ 2016  cd demo
+ 2017  ls
+ 2018  git pull origin main
+ 2019  cd ..
+ 2020  git clone git@github.com:Flahmingo-Investments/hook.git
+ 2021  ls
+ 2022  git clone git@github.com:Flahmingo-Investments/notification-service.git
+ 2023  cd plaid_service/
+ 2024  ls
+ 2025  cd ..
+ 2026  git clone git@github.com:Flahmingo-Investments/plaidservice.git
+ 2027  git clone git@github.com:Flahmingo-Investments/logo_color_detect.git
+ 2028  cd documentation/
+ 2029  git pull origin main
+ 2030  ls
+ 2031  cd ..
+ 2032  cd otp_service/
+ 2033  git pull origin main
+ 2034  cd ..
+ 2035  cd mail_service/
+ 2036  git pull origin main
+ 2037  git status
+ 2038  git add
+ 2039  git add .
+ 2040  git status
+ 2041  git commit -m ":"
+ 2042  git pull origin main
+ 2043  cd ..
+ 2044  git clone git@github.com:Flahmingo-Investments/mail_service.git
+ 2045  git clone git@github.com:Flahmingo-Investments/gateway_service.git
+ 2046  git clone git@github.com:Flahmingo-Investments/viewer.git
+ 2047  ls
+ 2048  cd reg_service/
+ 2049  git pull origin main
+ 2050  git pull origin master
+ 2051  cd ..
+ 2052  cd account_service/
+ 2053  ls
+ 2054  git pull origin main
+ 2055  cd ..
+ 2056  git clone git@github.com:Flahmingo-Investments/identity.git
+ 2057  cd identity-service/
+ 2058  git pull origin main
+ 2059  cd ..
+ 2060  cd database_stuff/
+ 2061  git pull origin main
+ 2062  cd ..
+ 2063  git clone git@github.com:Flahmingo-Investments/ci.git
+ 2064  git clone git@github.com:Flahmingo-Investments/DonutChartWeb.git
+ 2065  ls
+ 2066  ll
+ 2067  cd ..
+ 2068  s
+ 2069  ls
+ 2070  cd tcs/
+ 2071  ls
+ 2072  cd
+ 2073  cd weekend/
+ 2074  ls
+ 2075  cd ..
+ 2076  ls
+ 2077  cd anuj/
+ 2078  ls
+ 2079  cd ..
+ 2080  cd github/
+ 2081  ls
+ 2082  cd ..
+ 2083  clear
+ 2084  ls
+ 2085  cd RESTAPI/
+ 2086  ls
+ 2087  cd ..
+ 2088  clear
+ 2089  ls
+ 2090  cd Revision/
+ 2091  ls
+ 2092  file AndrewNG/
+ 2093  file classes.py 
+ 2094  clear
+ 2095  ls
+ 2096  cat new_history.txt 
+ 2097  clear
+ 2098  ls
+ 2099  cd sp.
+ 2100  cat tool.go 
+ 2101  ls
+ 2102  rm tool.go 
+ 2103  ls
+ 2104  rm tool 
+ 2105  cat TYPING 
+ 2106  rm TYPING 
+ 2107  ls
+ 2108  clear
+ 2109  ls -l
+ 2110  ls -la
+ 2111  clear
+ 2112  ls -la
+ 2113  cd github/
+ 2114  ls
+ 2115  cat historyTOgithub.sh 
+ 2116  ./historyTOgithub.sh 
+ 2117  ls
+ 2118  clear
+ 2119  cat historyTOgithub.sh 
+ 2120  ls >> new_history.txt 
+ 2121  ls
+ 2122  cat new_history.txt 
+ 2123  rm new_history.txt 
+ 2124  ls
+ 2125  clear
+ 2126  ls >> new_history.txt 
+ 2127  ls
+ 2128  cat new_history.txt 
+ 2129  rm new_history.txt 
+ 2130  history >> new_history.txt
+ 1134  rm -rf go1.16/
+ 1135  sudo rm -rf go1.16/
+ 1136  echo $GOPATH
+ 1137  cd -
+ 1138  go build
+ 1139  cd
+ 1140  ls
+ 1141  sudo rm -rf go1.16/
+ 1142  ls
+ 1143  vi .profile 
+ 1144  source .profile 
+ 1145  cd -
+ 1146  go build
+ 1147  echo $GOPATH
+ 1148  go env
+ 1149  cd /snap/bin
+ 1150  ls
+ 1151  go
+ 1152  ls
+ 1153  cd
+ 1154  vi .profile 
+ 1155  source .profile 
+ 1156  go env
+ 1157  vi .profile 
+ 1158  source .profile 
+ 1159  go env
+ 1160  cd -
+ 1161  cd 
+ 1162  cd unit/nunit-go/
+ 1163  go build
+ 1164  go version
+ 1165  echo $GOPATH
+ 1166  ls
+ 1167  go build
+ 1168  which go
+ 1169  cd
+ 1170  rm -rvf /snap/bin/go
+ 1171  sudo rm -rvf /snap/bin/go
+ 1172  go
+ 1173  go env
+ 1174  cd go
+ 1175  ls
+ 1176  cd ..
+ 1177  cd /usr/
+ 1178  cd local/
+ 1179  ls
+ 1180  cd ..
+ 1181  vi .profil
+ 1182  cd
+ 1183  vi .profile 
+ 1184  source .profile 
+ 1185  ls
+ 1186  cd snap/
+ 1187  ls
+ 1188  cd go
+ 1189  ls
+ 1190  go 
+ 1191  ls
+ 1192  cd 7954/
+ 1193  ls
+ 1194  ll
+ 1195  cd ..
+ 1196  cd 
+ 1197  cd snap/
+ 1198  ls
+ 1199  rm -rf go
+ 1200  ls
+ 1201  go
+ 1202  cd ..
+ 1203  ls
+ 1204  rm -rf go
+ 1205  sudo rm go
+ 1206  sudo rm -rf go
+ 1207  ls
+ 1208  cd gobyexample/
+ 1209  ls
+ 1210  cd ..
+ 1211  rm -rf gobyexample/
+ 1212  ls
+ 1213  cd snap/
+ 1214  ls
+ 1215  cd goland/
+ 1216  ls
+ 1217  cd ..
+ 1218  cd
+ 1219  ls
+ 1220  clear
+ 1221  cd unit/nunit-go/
+ 1222  go build
+ 1223  cd
+ 1224  rm -rf /usr/local/go
+ 1225  sudo tar -C /usr/local/ -xzf ~/Downloads/Amrendra/go1.16.6.linux-amd64.tar.gz 
+ 1226  vi .profile 
+ 1227  source .profile 
+ 1228  go
+ 1229  go version
+ 1230  echo $GOPATH
+ 1231  go env
+ 1232  cd unit/nunit-go/
+ 1233  go build
+ 1234  cd
+ 1235  cd work/tcs/
+ 1236  cd nunit-go/
+ 1237  go build
+ 1238  go mod init
+ 1239  go mod init hello
+ 1240  go mod tidy
+ 1241  go build
+ 1242  clear
+ 1243  cd ..
+ 1244  cd ../flahmingo/
+ 1245  ls
+ 1246  cd otp_service/grpc_otp_service/
+ 1247  ./server 
+ 1248  go build ./cmd/server/
+ 1249  clear
+ 1250  exit
+ 1251  ls
+ 1252  cd work/tcs/
+ 1253  ls
+ 1254  cd nunit-go/
+ 1255  ls
+ 1256  code .
+ 1257  cd ..
+ 1258  systemctl status nunit
+ 1259  systemctl status unit
+ 1260  cd ..
+ 1261  cd weekend/vagrant_getting_started/
+ 1262  ls
+ 1263  vagrant up
+ 1264  vagrant ssh
+ 1265  vagrant -h
+ 1266  vagrant status
+ 1267  vagrant suspend
+ 1268  cd ..
+ 1269  cd work/tcs/
+ 1270  ls
+ 1271  systemctl status unit
+ 1272  systemctl start unit
+ 1273  systemctl status unit
+ 1274  cd /usr/sbin/
+ 1275  ll
+ 1276  ls |grep unitd
+ 1277  ll |grep unitd
+ 1278  unitd
+ 1279  cd /var/run
+ 1280  ll
+ 1281  ll |grep control
+ 1282  cat control.unit.sock 
+ 1283  sudo cat control.unit.sock 
+ 1284  cd systemd/
+ 1285  ls
+ 1286  cd unit-root/
+ 1287  ls
+ 1288  sudo unit-root/
+ 1289  sudo cd unit-root/
+ 1290  sudo
+ 1291  su
+ 1292  su -
+ 1293  sudo -s
+ 1294  ls
+ 1295  cd ..
+ 1296  ls
+ 1297  cd ..
+ 1298  c
+ 1299  cd
+ 1300  ls
+ 1301  cd 'VirtualBox VMs'/
+ 1302  ls
+ 1303  cd vagrant_getting_started_default_1627061957800_75406/
+ 1304  ls
+ 1305  cd ..
+ 1306  cd 
+ 1307  ls
+ 1308  cd unit/
+ 1309  ;s
+ 1310  ls
+ 1311  ps aufx | tail
+ 1312  systemctl stop unit
+ 1313  ps aufx | tail
+ 1314  clear
+ 1315  ls
+ 1316  ./configure go
+ 1317  cd ./build/
+ 1318  ls
+ 1319  ./unitd -control 127.0.0.1:4444
+ 1320  ./unitd -h
+ 1321  ./unitd --control 127.0.0.1:4444
+ 1322  curl localhost:4444
+ 1323  cd ..
+ 1324  curl localhost:4444
+ 1325  ls
+ 1326  cd pkg/
+ 1327  ls
+ 1328  cd ..
+ 1329  cd src/
+ 1330  ls
+ 1331  cd ..
+ 1332  cp /home/drax/work/tcs/nunit-go/ /home/drax/unit/
+ 1333  cp -r /home/drax/work/tcs/nunit-go/ /home/drax/unit/
+ 1334  ls
+ 1335  cd nunit-go/
+ 1336  ls
+ 1337  cd ..
+ 1338  clear
+ 1339  ps aufx | tail
+ 1340  ./configure --control 127.0.0.1:4545
+ 1341  ls
+ 1342  historoy
+ 1343  history
+ 1344  ./unitd --control 127.0.0.1:4444
+ 1345  ls
+ 1346  ./build/unitd --control 127.0.0.1:4444
+ 1347  curl localhost:4444
+ 1348  cd -
+ 1349  cd ~
+ 1350  ls
+ 1351  cd -
+ 1352  cd +
+ 1353  clear
+ 1354  ls
+ 1355  cd ..
+ 1356  ls
+ 1357  mkdir demo
+ 1358  cd demo/
+ 1359  ls
+ 1360  touch demo.json
+ 1361  vi demo.json 
+ 1362  ls
+ 1363  cat demo.json 
+ 1364  cd ..
+ 1365  ls
+ 1366  ./configure go
+ 1367  go
+ 1368  exit
+ 1369  go
+ 1370  sudo snap install go
+ 1371  snap help refresh
+ 1372  snap help refresh --list
+ 1373  snap refresh --list
+ 1374  sudo snap install go
+ 1375  snap list
+ 1376  go
+ 1377  snap info go
+ 1378  go.gofmt
+ 1379  go
+ 1380  sudo snap install go
+ 1381  snap help refresh
+ 1382  snap refresh --stable
+ 1383  snap refresh go --stable
+ 1384  go
+ 1385  vi .profile 
+ 1386  cd /usr/local/
+ 1387  ls
+ 1388  cd go/
+ 1389  ls
+ 1390  cd
+ 1391  ls
+ 1392  go
+ 1393  ls
+ 1394  source .profile 
+ 1395  go
+ 1396  exit
+ 1397  go
+ 1398  cd /etc/
+ 1399  ls
+ 1400  sudo vi profile
+ 1401  go
+ 1402  exit
+ 1403  go
+ 1404  source .profile 
+ 1405  go
+ 1406  echo $GOPATH
+ 1407  ls
+ 1408  exit
+ 1409  go
+ 1410  clear
+ 1411  cd unit/nunit-go/
+ 1412  go build
+ 1413  cd
+ 1414  cd work/flahmingo/
+ 1415  cd otp_service/grpc_otp_service/
+ 1416  go build ./cmd/server/
+ 1417  ls
+ 1418  exit
+ 1419  ps aufx |tail
+ 1420  clear
+ 1421  ps aufx |tail
+ 1422  cd work/tcs/
+ 1423  ls
+ 1424  cd docs/
+ 1425  code unit.md 
+ 1426  ps aufx |tail
+ 1427  ps aufx 
+ 1428  kill unit
+ 1429  pkill 58946
+ 1430  ps aufx 
+ 1431  pkill 47946
+ 1432  ps aufx 
+ 1433  exit
+ 1434  curl localhost:8080
+ 1435  clear
+ 1436  cd ..
+ 1437  cd unit/
+ 1438  cd demo/
+ 1439  ls
+ 1440  cd ..
+ 1441  curl -X PUT -d@demo/demo.json '127.0.0.1:4333'
+ 1442  curl -X PUT -d@demo/demo.json '127.0.0.1:4444'
+ 1443  cd ..
+ 1444  ls
+ 1445  cd nunit-go/
+ 1446  ls
+ 1447  hello
+ 1448  ./hello 
+ 1449  curl localhost:8080
+ 1450  cd ..
+ 1451  cd nunit-go/
+ 1452  code .
+ 1453  curl localhost:8080
+ 1454  go build 
+ 1455  curl localhost:8080
+ 1456  ./hello 
+ 1457  curl localhost:8080
+ 1458  cd .
+ 1459  cd ..
+ 1460  cd unit/
+ 1461  ls
+ 1462  cd demo/
+ 1463  ls
+ 1464  cd ..
+ 1465  ls
+ 1466  vi demo/demo.json 
+ 1467  curl -X PUT -d@demo/demo.json '127.0.0.1:4444'
+ 1468  cat demo/demo.json 
+ 1469  curl -X PUT -d@demo/demo.json '127.0.0.1:8500'
+ 1470  ./build/unitd --control 127.0.0.1:8500
+ 1471  ps aufx |tail
+ 1472  curl -X PUT -d@demo/demo.json '127.0.0.1:8500'
+ 1473  netstat -tulnp | grep unit
+ 1474  cd ..
+ 1475  cd work/tcs/
+ 1476  mkdir docs
+ 1477  cd docs/
+ 1478  touch unit.md
+ 1479  code unit.md 
+ 1480  cd
+ 1481  cd unit/
+ 1482  cd demo
+ 1483  cat demo.json 
+ 1484  cd $HOME/nunit-go
+ 1485  ls
+ 1486  ./hello 
+ 1487  curl -X PUT -d@demo/demo.json '127.0.0.1:8500/config'
+ 1488  cd -
+ 1489  curl -X PUT -d@demo/demo.json '127.0.0.1:8500/config'
+ 1490  cd ..
+ 1491  curl -X PUT -d@demo/demo.json '127.0.0.1:8500/config'
+ 1492  curl -X PUT -d@demo/demo.json '127.0.0.1:4444/config'
+ 1493  curl -X PUT -d@demo/demo.json '127.0.0.1:4445/config'
+ 1494  curl -X PUT -d@demo/demo.json '127.0.0.1:8500/config'
+ 1495  cat unit.log 
+ 1496  vi demo/demo.json 
+ 1497  curl -X PUT -d@demo/demo.json '127.0.0.1:8500/config'
+ 1498  curl -X PUT -d@demo/demo.json '127.0.0.1:8501/config'
+ 1499  curl -X PUT -d@demo/demo.json '127.0.0.1:8500/config'
+ 1500  ls -ld /tmp/
+ 1501  curl -X PUT -d@demo/demo.json '127.0.0.1:8500/config'
+ 1502  systemctl status unit
+ 1503  curl -X PUT 
+ 1504  curl -X PUT -d@demo/demo.json '127.0.0.1:8500/config'
+ 1505  vi demo/demo.json 
+ 1506  curl -X PUT -d@demo/demo.json '127.0.0.1:8500/config'
+ 1507  curl -X PUT -d@demo/demo.json '127.0.0.1:8500'
+ 1508  curl -X PUT -d@demo/demo.json '127.0.0.1:8500/config'
+ 1509  vi demo/demo.json 
+ 1510  cd ..
+ 1511  systemctl status unit
+ 1512  unit --help
+ 1513  cd unit/
+ 1514  ls
+ 1515  cd build/
+ 1516  ls
+ 1517  ./unitd -h
+ 1518  ./unitd --version
+ 1519  cd ..
+ 1520  cd work/tcs/
+ 1521  ls
+ 1522  touch unit.sh
+ 1523  vi unit.sh 
+ 1524  ls
+ 1525  chmod +x unit.sh 
+ 1526  ./unit.sh 
+ 1527  vi unit.sh 
+ 1528  ./unit.sh 
+ 1529  vi unit.sh 
+ 1530  cd /var/lib/
+ 1531  ls
+ 1532  cd -
+ 1533  vi unit.sh 
+ 1534  ./unit.sh 
+ 1535  cd
+ 1536  cd work/tcs/
+ 1537  cd nunit-go/
+ 1538  ls
+ 1539  go build
+ 1540  cd ..
+ 1541  vi unit.sh 
+ 1542  curl localhost:8080
+ 1543  ./unit.sh 
+ 1544  curl localhost:8080
+ 1545  cd nunit-go/
+ 1546  code .
+ 1547  go build
+ 1548  cd ..
+ 1549  ./unit.sh 
+ 1550  curl localhost:8080
+ 1551  exit
+ 1552  curl localhost:8080
+ 1553  cat app.go 
+ 1554  exit
+ 1555  cd unit/
+ 1556  ls
+ 1557  ./configure go
+ 1558  export $GOPATH=/home/drax/unit/go
+ 1559  export $GOPATH = /home/drax/unit/go
+ 1560  export $GOPATH=$HOME/unit/go
+ 1561  export $GOPATH $HOME/unit/go
+ 1562  export $GOPATH=$HOME/unit/go
+ 1563  echo $GOPATH
+ 1564  go env
+ 1565  cd ..
+ 1566  vi .profile 
+ 1567  source .profile 
+ 1568  vi .profile 
+ 1569  source .profile 
+ 1570  clear
+ 1571  cd unit/
+ 1572  make all
+ 1573  cd build/
+ 1574  ls
+ 1575  ./unitd --control 127.0.0.1:4444
+ 1576  curl localhost:4444
+ 1577  cd ../
+ 1578  ls
+ 1579  cd demo/dem
+ 1580  cd demo/
+ 1581  ls
+ 1582  vi demo.json 
+ 1583  cd ..
+ 1584  cp ~/work/tcs/nunit-go/ /
+ 1585  cp -r ~/work/tcs/nunit-go/ ~/
+ 1586  ls
+ 1587  cd nunit-go/
+ 1588  ls
+ 1589  go build
+ 1590  code .
+ 1591  go get unit.nginx.org/go
+ 1592  cd
+ 1593  sudo apt update
+ 1594  sudo apt install unit
+ 1595  apt install unit-dev unit-go unit-jsc11 unit-jsc15 unit-jsc16 unit-jsc17               unit-perl unit-php unit-python2.7 unit-python3.9 unit-ruby
+ 1596  sudo apt install unit-dev unit-go unit-jsc11 unit-jsc15 unit-jsc16 unit-jsc17               unit-perl unit-php unit-python2.7 unit-python3.9 unit-ruby
+ 1597  sudo apt install unit-dev unit-go
+ 1598  go get unit.nginx.org/go
+ 1599  cd nunit-go/
+ 1600  go build
+ 1601  ./hello 
+ 1602  go build
+ 1603  ./hello 
+ 1604  cd /var/
+ 1605  ls
+ 1606  cd lib/
+ 1607  ls
+ 1608  cd ..
+ 1609  ls
+ 1610  cd ..
+ 1611  ls
+ 1612  cd bin/
+ 1613  ls
+ 1614  cd ..
+ 1615  ls
+ 1616  cd srv/
+ 1617  ls
+ 1618  ll
+ 1619  cd /usr/
+ 1620  ls
+ 1621  cd ..
+ 1622  ls
+ 1623  cd bin/
+ 1624  ls
+ 1625  systemctl status unit
+ 1626  systemctl start unit
+ 1627  systemctl status unit
+ 1628  ls
+ 1629  unit
+ 1630  cd ..
+ 1631  ls
+ 1632  cd /etc/
+ 1633  ls
+ 1634  cd ..
+ 1635  ls
+ 1636  cd lib
+ 1637  ls
+ 1638  cd ..
+ 1639  cd var/
+ 1640  ls
+ 1641  cd lib/
+ 1642  ls
+ 1643  cd ..
+ 1644  ls
+ 1645  cd run/
+ 1646  ls
+ 1647  exit
+ 1648  vagrant ssh
+ 1649  exit
+ 1650  cd work/tcs/
+ 1651  ls
+ 1652  mkdir vagrant
+ 1653  cd vagrant/
+ 1654  vagrant init
+ 1655  vagrant upl
+ 1656  vagrant up
+ 1657  ls
+ 1658  vagrant up
+ 1659  vagrant up -h
+ 1660  vagrant up 
+ 1661  vi Vagrantfile 
+ 1662  vagrant init -h
+ 1663  rm Vagrantfile 
+ 1664  vagrant box list
+ 1665  vagrant init hashicorp/bionic64
+ 1666  vagrant login
+ 1667  vagrant up
+ 1668  vagrant ssh
+ 1669  vagrant up
+ 1670  vagrant ssh
+ 1671  vagrant suspend
+ 1672  systemctl status unit
+ 1673  systemctl stop unit
+ 1674  exit
+ 1675  cd
+ 1676  cd weekend/vagrant_getting_started/
+ 1677  ls
+ 1678  vi Vagrantfile 
+ 1679  cp go1.16.6.linux-amd64.tar.gz ~/work/tcs/vagrant/
+ 1680  go env
+ 1681  go version
+ 1682  history
+ 1683  lsd
+ 1684  exa
+ 1685  zoxide
+ 1686  exit
+ 1687  cd ..
+ 1688  ls
+ 1689  exit
+ 1690  ssh 10.0.2.15
+ 1691  ssh 10.0.2.15 -u vagrant
+ 1692  ssh 10.0.2.15 vagrant@vagrant:2222
+ 1693  cd
+ 1694  vagrant ssh-config | grep IdentityFile
+ 1695  cd work/tcs/vagrant/
+ 1696  vagrant ssh-config | grep IdentityFile
+ 1697  cd
+ 1698  exit
+ 1699  cd
+ 1700  cd work/tcs/ls
+ 1701  cd work/tcs/
+ 1702  ls
+ 1703  cd vagrant/
+ 1704  vagrant up
+ 1705  vagrant ssh
+ 1706  exit
+ 1707  openssl version
+ 1708  python
+ 1709  python3
+ 1710  clear
+ 1711  sudo apt update
+ 1712  $ sudo apt install software-properties-common
+ 1713  sudo apt install software-properties-common
+ 1714  sudo add-apt-repository --yes --update ppa:ansible/ansible
+ 1715  sudo apt install ansible
+ 1716  ansible all -m ping --ask-pass
+ 1717  cd /etc/ansible/
+ 1718  ls
+ 1719  vi hosts 
+ 1720  sudo vi hosts 
+ 1721  ansible all -m ping --ask-pass
+ 1722  ansible all -m ping 
+ 1723  sudo vi hosts 
+ 1724  ansible all -m ping 
+ 1725  sudo vi hosts 
+ 1726  cd
+ 1727  reset
+ 1728  ls
+ 1729  cd work/tcs/
+ 1730  ls
+ 1731  cd docs/
+ 1732  ls
+ 1733  vi unit.md 
+ 1734  cat unit.md 
+ 1735  ls
+ 1736  remarkable unit.md 
+ 1737  cd
+ 1738  wget -qO - https://typora.io/linux/public-key.asc | sudo apt-key add -
+ 1739  sudo add-apt-repository 'deb https://typora.io/linux ./'
+ 1740  sudo apt update
+ 1741  sudo apt-get install typora
+ 1742  typora
+ 1743  sudo apt-get remove typora
+ 1744  sudo apt autoremove
+ 1745  cd work/tcs/vagrant/
+ 1746  cd ..
+ 1747  code docs/unit.md 
+ 1748  rm docs/nginxunit 
+ 1749  cd
+ 1750  ls
+ 1751  rm Hello\ How\ are\ you\ typora.md 
+ 1752  ls
+ 1753  cd -
+ 1754  ls
+ 1755  cd nunit-go/
+ 1756  code .
+ 1757  cd ..
+ 1758  cd docs/
+ 1759  cat unit.md 
+ 1760  cd ..
+ 1761  ls
+ 1762  cat unit.sh 
+ 1763  vi docs/unit.md 
+ 1764  code docs/unit.md 
+ 1765  cd 
+ 1766  cd work/flahmingo/
+ 1767  ls
+ 1768  code flahmingo-central/
+ 1769  cd flahmingo-central/
+ 1770  git pull origin main
+ 1771  exit
+ 1772  cd 
+ 1773  cd work/flahmingo/
+ 1774  cd otp_service/grpc_otp_service/
+ 1775  code .
+ 1776  cd
+ 1777  cd exit
+ 1778  exit
+ 1779  cd ..
+ 1780  cd vagrant/
+ 1781  vagrant ssh
+ 1782  exit
+ 1783  ps aufx |tail
+ 1784  systemctl status unit
+ 1785  systemctl start unit
+ 1786  systemctl status unit
+ 1787  ps aufx |tail
+ 1788  exa
+ 1789  exit
+ 1790  cd weekend/
+ 1791  ls
+ 1792  cd ..
+ 1793  ls
+ 1794  cd work/
+ 1795  ls
+ 1796  cd flahmingo/
+ 1797  ls
+ 1798  cd ..
+ 1799  ls
+ 1800  cd ..
+ 1801  clear
+ 1802  ls
+ 1803  cd github/
+ 1804  ls
+ 1805  cd ..
+ 1806  cd study/
+ 1807  ls
+ 1808  cat b19b349ae6bb90e5d2da78605c5c015b.info 
+ 1809  cd ..
+ 1810  cd weekend/
+ 1811  ls
+ 1812  cd amren1254.github.io/
+ 1813  ls
+ 1814  cd ..
+ 1815  ls
+ 1816  clear
+ 1817  ls
+ 1818  cat intro.txt 
+ 1819  clear
+ 1820  rm intro.txt 
+ 1821  ls
+ 1822  cd portfolio/
+ 1823  ls
+ 1824  cd ..
+ 1825  git clone git@github.com:amren1254/amren1254.git
+ 1826  ls
+ 1827  cd amren1254
+ 1828  lls
+ 1829  ls
+ 1830  code .
+ 1831  git status
+ 1832  git add pacman.svg 
+ 1833  git commit -m "testing:pacman"
+ 1834  git push origin main 
+ 1835  cd ..
+ 1836  cd amren1254.github.io/
+ 1837  code .
+ 1838  cd
+ 1839  sudo apt update
+ 1840  sudo apt upgrade
+ 1841  cd
+ 1842  ls
+ 1843  cd nunit-go/
+ 1844  ls
+ 1845  ./hello 
+ 1846  cat app.go 
+ 1847  clear
+ 1848  exit
+ 1849  cd
+ 1850  rm -rf nunit-go/
+ 1851  ls
+ 1852  curl localhost:8080/hello
+ 1853  clear
+ 1854  exit
+ 1855  curl localhost:3777
+ 1856  curl localhost:3777/ping
+ 1857  exit
+ 1858  curl localhost:3777/ping
+ 1859  exit
+ 1860  cd work/tcs/
+ 1861  ls
+ 1862  cd vagrant/
+ 1863  ls
+ 1864  vagrant up
+ 1865  vagrant ssh
+ 1866  exit
+ 1867  cd ..
+ 1868  ls
+ 1869  cd nunit-go/
+ 1870  code .
+ 1871  curl localhost:8080/hello
+ 1872  systemctl status unit
+ 1873  systectl start unit
+ 1874  systemctl start unit
+ 1875  curl localhost:8080/hello
+ 1876  ls
+ 1877  clear
+ 1878  ls
+ 1879  cd ..
+ 1880  ls
+ 1881  cat unit.sh 
+ 1882  cd gin-sovd/
+ 1883  ls
+ 1884  code .
+ 1885  go mod init ginsovd
+ 1886  go mod tidy
+ 1887  go build
+ 1888  ./ginsovd 
+ 1889  go build
+ 1890  ./ginsovd 
+ 1891  go build
+ 1892  ./ginsovd 
+ 1893  go build
+ 1894  ./ginsovd 
+ 1895  go build
+ 1896  ./ginsovd 
+ 1897  go build
+ 1898  ./ginsovd 
+ 1899  go build
+ 1900  ./ginsovd 
+ 1901  go build
+ 1902  ./ginsovd 
+ 1903  go build
+ 1904  ./ginsovd 
+ 1905  go build
+ 1906  ./ginsovd 
+ 1907  go build
+ 1908  ./ginsovd 
+ 1909  go build
+ 1910  ./ginsovd 
+ 1911  go build
+ 1912  ./ginsovd 
+ 1913  go build
+ 1914  ./ginsovd 
+ 1915  go build
+ 1916  ./ginsovd 
+ 1917  go build
+ 1918  ./ginsovd 
+ 1919  go build
+ 1920  ./ginsovd 
+ 1921  go build
+ 1922  ./ginsovd 
+ 1923  curl localhost:8080/hello
+ 1924  cd ..
+ 1925  cat unit.sh 
+ 1926  cd gin-sovd/
+ 1927  ls
+ 1928  cd nginx-unit/
+ 1929  ls
+ 1930  chmod +x nginx-setup.sh 
+ 1931  ./nginx-setup.sh 
+ 1932  curl localhost:8080/periodic
+ 1933  clear
+ 1934  exit
+ 1935  curl localhost:3777/periodic
+ 1936  exit
+ 1937  cd ~/Downloads/
+ 1938  cd Amrendra/
+ 1939  ls
+ 1940  curl file:///index.html
+ 1941  cd
+ 1942  cd work/tcs/vagrant/
+ 1943  ls
+ 1944  vagrant ssh
+ 1945  exit
+ 1946  systemctl status unit
+ 1947  systemctl start unit
+ 1948  systemctl status unit
+ 1949  ps aufx | tail
+ 1950  cd work/tcs/gin-sovd/
+ 1951  cd nginx-unit/
+ 1952  ls
+ 1953  ./nginx-setup.sh 
+ 1954  systemctl status unit
+ 1955  ./nginx-setup.sh 
+ 1956  ifconfig
+ 1957  ./nginx-setup.sh 
+ 1958  cd ..
+ 1959  ls
+ 1960  go build
+ 1961  ls
+ 1962  cd -
+ 1963  ./nginx-setup.sh 
+ 1964  ps aufx | tail
+ 1965  cd /var/log/
+ 1966  ls
+ 1967  sudo cat access.log 
+ 1968  cd -
+ 1969  ./nginx-setup.sh 
+ 1970  cd /var/run/
+ 1971  ls
+ 1972  ll
+ 1973  vi control.unit.sock 
+ 1974  cat control.unit.sock 
+ 1975  sudo cat control.unit.sock 
+ 1976  curl localhost:4777/periodic -v
+ 1977  exit
+ 1978  cd /var/log/
+ 1979  ls
+ 1980  cat access.log 
+ 1981  sudo cat access.log 
+ 1982  sudo cat access.log -v
+ 1983  ifconfig
+ 1984  sudo cat access.log -v
+ 1985  exit
+ 1986  cd ..
+ 1987  cd vag
+ 1988  cd ..
+ 1989  cd vagrant/
+ 1990  ls
+ 1991  vagrant ssh
+ 1992  exit
+ 1993  cd work/tcs/gin-sovd/nginx-unit/
+ 1994  ls
+ 1995  ./nginx-setup.sh 
+ 1996  systemctl stop unit
+ 1997  exit
+ 1998  cd work/flahmingo/
+ 1999  ls
+ 2000  git clone git@github.com:Flahmingo-Investments/mobile-app-v1.git
+ 2001  cd flahmingo-central/
+ 2002  ls
+ 2003  git pull origin main
+ 2004  cd ..
+ 2005  git clone git@github.com:Flahmingo-Investments/product-docs.git
+ 2006  git clone git@github.com:Flahmingo-Investments/Webhook-Handler.git
+ 2007  git clone git@github.com:Flahmingo-Investments/proto-repo.git
+ 2008  ls
+ 2009  git clone git@github.com:Flahmingo-Investments/trading-service.git
+ 2010  cd account-service/
+ 2011  ls
+ 2012  git pull origin main
+ 2013  cd ..
+ 2014  git clone git@github.com:Flahmingo-Investments/website.git
+ 2015  git clone git@github.com:Flahmingo-Investments/deprecated-mobile-app.git
+ 2016  cd demo
+ 2017  ls
+ 2018  git pull origin main
+ 2019  cd ..
+ 2020  git clone git@github.com:Flahmingo-Investments/hook.git
+ 2021  ls
+ 2022  git clone git@github.com:Flahmingo-Investments/notification-service.git
+ 2023  cd plaid_service/
+ 2024  ls
+ 2025  cd ..
+ 2026  git clone git@github.com:Flahmingo-Investments/plaidservice.git
+ 2027  git clone git@github.com:Flahmingo-Investments/logo_color_detect.git
+ 2028  cd documentation/
+ 2029  git pull origin main
+ 2030  ls
+ 2031  cd ..
+ 2032  cd otp_service/
+ 2033  git pull origin main
+ 2034  cd ..
+ 2035  cd mail_service/
+ 2036  git pull origin main
+ 2037  git status
+ 2038  git add
+ 2039  git add .
+ 2040  git status
+ 2041  git commit -m ":"
+ 2042  git pull origin main
+ 2043  cd ..
+ 2044  git clone git@github.com:Flahmingo-Investments/mail_service.git
+ 2045  git clone git@github.com:Flahmingo-Investments/gateway_service.git
+ 2046  git clone git@github.com:Flahmingo-Investments/viewer.git
+ 2047  ls
+ 2048  cd reg_service/
+ 2049  git pull origin main
+ 2050  git pull origin master
+ 2051  cd ..
+ 2052  cd account_service/
+ 2053  ls
+ 2054  git pull origin main
+ 2055  cd ..
+ 2056  git clone git@github.com:Flahmingo-Investments/identity.git
+ 2057  cd identity-service/
+ 2058  git pull origin main
+ 2059  cd ..
+ 2060  cd database_stuff/
+ 2061  git pull origin main
+ 2062  cd ..
+ 2063  git clone git@github.com:Flahmingo-Investments/ci.git
+ 2064  git clone git@github.com:Flahmingo-Investments/DonutChartWeb.git
+ 2065  ls
+ 2066  ll
+ 2067  cd ..
+ 2068  s
+ 2069  ls
+ 2070  cd tcs/
+ 2071  ls
+ 2072  cd
+ 2073  cd weekend/
+ 2074  ls
+ 2075  cd ..
+ 2076  ls
+ 2077  cd anuj/
+ 2078  ls
+ 2079  cd ..
+ 2080  cd github/
+ 2081  ls
+ 2082  cd ..
+ 2083  clear
+ 2084  ls
+ 2085  cd RESTAPI/
+ 2086  ls
+ 2087  cd ..
+ 2088  clear
+ 2089  ls
+ 2090  cd Revision/
+ 2091  ls
+ 2092  file AndrewNG/
+ 2093  file classes.py 
+ 2094  clear
+ 2095  ls
+ 2096  cat new_history.txt 
+ 2097  clear
+ 2098  ls
+ 2099  cd sp.
+ 2100  cat tool.go 
+ 2101  ls
+ 2102  rm tool.go 
+ 2103  ls
+ 2104  rm tool 
+ 2105  cat TYPING 
+ 2106  rm TYPING 
+ 2107  ls
+ 2108  clear
+ 2109  ls -l
+ 2110  ls -la
+ 2111  clear
+ 2112  ls -la
+ 2113  cd github/
+ 2114  ls
+ 2115  cat historyTOgithub.sh 
+ 2116  ./historyTOgithub.sh 
+ 2117  ls
+ 2118  clear
+ 2119  cat historyTOgithub.sh 
+ 2120  ls >> new_history.txt 
+ 2121  ls
+ 2122  cat new_history.txt 
+ 2123  rm new_history.txt 
+ 2124  ls
+ 2125  clear
+ 2126  ls >> new_history.txt 
+ 2127  ls
+ 2128  cat new_history.txt 
+ 2129  rm new_history.txt 
+ 2130  history >> new_history.txt
+ 2131  cat new_history.txt 
+ 2132  vi historyTOgithub.sh 
+ 2133  history >> new_history.txt
+ 1004  ls
+ 1005  vi .profile 
+ 1006  source .profile 
+ 1007  cd -
+ 1008  go build
+ 1009  echo $GOPATH
+ 1010  go env
+ 1011  cd /snap/bin
+ 1012  ls
+ 1013  go
+ 1014  ls
+ 1015  cd
+ 1016  vi .profile 
+ 1017  source .profile 
+ 1018  go env
+ 1019  vi .profile 
+ 1020  source .profile 
+ 1021  go env
+ 1022  cd -
+ 1023  cd 
+ 1024  cd unit/nunit-go/
+ 1025  go build
+ 1026  go version
+ 1027  echo $GOPATH
+ 1028  ls
+ 1029  go build
+ 1030  which go
+ 1031  cd
+ 1032  rm -rvf /snap/bin/go
+ 1033  sudo rm -rvf /snap/bin/go
+ 1034  go
+ 1035  go env
+ 1036  cd go
+ 1037  ls
+ 1038  cd ..
+ 1039  cd /usr/
+ 1040  cd local/
+ 1041  ls
+ 1042  cd ..
+ 1043  vi .profil
+ 1044  cd
+ 1045  vi .profile 
+ 1046  source .profile 
+ 1047  ls
+ 1048  cd snap/
+ 1049  ls
+ 1050  cd go
+ 1051  ls
+ 1052  go 
+ 1053  ls
+ 1054  cd 7954/
+ 1055  ls
+ 1056  ll
+ 1057  cd ..
+ 1058  cd 
+ 1059  cd snap/
+ 1060  ls
+ 1061  rm -rf go
+ 1062  ls
+ 1063  go
+ 1064  cd ..
+ 1065  ls
+ 1066  rm -rf go
+ 1067  sudo rm go
+ 1068  sudo rm -rf go
+ 1069  ls
+ 1070  cd gobyexample/
+ 1071  ls
+ 1072  cd ..
+ 1073  rm -rf gobyexample/
+ 1074  ls
+ 1075  cd snap/
+ 1076  ls
+ 1077  cd goland/
+ 1078  ls
+ 1079  cd ..
+ 1080  cd
+ 1081  ls
+ 1082  clear
+ 1083  cd unit/nunit-go/
+ 1084  go build
+ 1085  cd
+ 1086  rm -rf /usr/local/go
+ 1087  sudo tar -C /usr/local/ -xzf ~/Downloads/Amrendra/go1.16.6.linux-amd64.tar.gz 
+ 1088  vi .profile 
+ 1089  source .profile 
+ 1090  go
+ 1091  go version
+ 1092  echo $GOPATH
+ 1093  go env
+ 1094  cd unit/nunit-go/
+ 1095  go build
+ 1096  cd
+ 1097  cd work/tcs/
+ 1098  cd nunit-go/
+ 1099  go build
+ 1100  go mod init
+ 1101  go mod init hello
+ 1102  go mod tidy
+ 1103  go build
+ 1104  clear
+ 1105  cd ..
+ 1106  cd ../flahmingo/
+ 1107  ls
+ 1108  cd otp_service/grpc_otp_service/
+ 1109  ./server 
+ 1110  go build ./cmd/server/
+ 1111  clear
+ 1112  exit
+ 1113  ls
+ 1114  cd work/tcs/
+ 1115  ls
+ 1116  cd nunit-go/
+ 1117  ls
+ 1118  code .
+ 1119  cd ..
+ 1120  systemctl status nunit
+ 1121  systemctl status unit
+ 1122  cd ..
+ 1123  cd weekend/vagrant_getting_started/
+ 1124  ls
+ 1125  vagrant up
+ 1126  vagrant ssh
+ 1127  vagrant -h
+ 1128  vagrant status
+ 1129  vagrant suspend
+ 1130  cd ..
+ 1131  cd work/tcs/
+ 1132  ls
+ 1133  systemctl status unit
+ 1134  systemctl start unit
+ 1135  systemctl status unit
+ 1136  cd /usr/sbin/
+ 1137  ll
+ 1138  ls |grep unitd
+ 1139  ll |grep unitd
+ 1140  unitd
+ 1141  cd /var/run
+ 1142  ll
+ 1143  ll |grep control
+ 1144  cat control.unit.sock 
+ 1145  sudo cat control.unit.sock 
+ 1146  cd systemd/
+ 1147  ls
+ 1148  cd unit-root/
+ 1149  ls
+ 1150  sudo unit-root/
+ 1151  sudo cd unit-root/
+ 1152  sudo
+ 1153  su
+ 1154  su -
+ 1155  sudo -s
+ 1156  ls
+ 1157  cd ..
+ 1158  ls
+ 1159  cd ..
+ 1160  c
+ 1161  cd
+ 1162  ls
+ 1163  cd 'VirtualBox VMs'/
+ 1164  ls
+ 1165  cd vagrant_getting_started_default_1627061957800_75406/
+ 1166  ls
+ 1167  cd ..
+ 1168  cd 
+ 1169  ls
+ 1170  cd unit/
+ 1171  ;s
+ 1172  ls
+ 1173  ps aufx | tail
+ 1174  systemctl stop unit
+ 1175  ps aufx | tail
+ 1176  clear
+ 1177  ls
+ 1178  ./configure go
+ 1179  cd ./build/
+ 1180  ls
+ 1181  ./unitd -control 127.0.0.1:4444
+ 1182  ./unitd -h
+ 1183  ./unitd --control 127.0.0.1:4444
+ 1184  curl localhost:4444
+ 1185  cd ..
+ 1186  curl localhost:4444
+ 1187  ls
+ 1188  cd pkg/
+ 1189  ls
+ 1190  cd ..
+ 1191  cd src/
+ 1192  ls
+ 1193  cd ..
+ 1194  cp /home/drax/work/tcs/nunit-go/ /home/drax/unit/
+ 1195  cp -r /home/drax/work/tcs/nunit-go/ /home/drax/unit/
+ 1196  ls
+ 1197  cd nunit-go/
+ 1198  ls
+ 1199  cd ..
+ 1200  clear
+ 1201  ps aufx | tail
+ 1202  ./configure --control 127.0.0.1:4545
+ 1203  ls
+ 1204  historoy
+ 1205  history
+ 1206  ./unitd --control 127.0.0.1:4444
+ 1207  ls
+ 1208  ./build/unitd --control 127.0.0.1:4444
+ 1209  curl localhost:4444
+ 1210  cd -
+ 1211  cd ~
+ 1212  ls
+ 1213  cd -
+ 1214  cd +
+ 1215  clear
+ 1216  ls
+ 1217  cd ..
+ 1218  ls
+ 1219  mkdir demo
+ 1220  cd demo/
+ 1221  ls
+ 1222  touch demo.json
+ 1223  vi demo.json 
+ 1224  ls
+ 1225  cat demo.json 
+ 1226  cd ..
+ 1227  ls
+ 1228  ./configure go
+ 1229  go
+ 1230  exit
+ 1231  go
+ 1232  sudo snap install go
+ 1233  snap help refresh
+ 1234  snap help refresh --list
+ 1235  snap refresh --list
+ 1236  sudo snap install go
+ 1237  snap list
+ 1238  go
+ 1239  snap info go
+ 1240  go.gofmt
+ 1241  go
+ 1242  sudo snap install go
+ 1243  snap help refresh
+ 1244  snap refresh --stable
+ 1245  snap refresh go --stable
+ 1246  go
+ 1247  vi .profile 
+ 1248  cd /usr/local/
+ 1249  ls
+ 1250  cd go/
+ 1251  ls
+ 1252  cd
+ 1253  ls
+ 1254  go
+ 1255  ls
+ 1256  source .profile 
+ 1257  go
+ 1258  exit
+ 1259  go
+ 1260  cd /etc/
+ 1261  ls
+ 1262  sudo vi profile
+ 1263  go
+ 1264  exit
+ 1265  go
+ 1266  source .profile 
+ 1267  go
+ 1268  echo $GOPATH
+ 1269  ls
+ 1270  exit
+ 1271  go
+ 1272  clear
+ 1273  cd unit/nunit-go/
+ 1274  go build
+ 1275  cd
+ 1276  cd work/flahmingo/
+ 1277  cd otp_service/grpc_otp_service/
+ 1278  go build ./cmd/server/
+ 1279  ls
+ 1280  exit
+ 1281  ps aufx |tail
+ 1282  clear
+ 1283  ps aufx |tail
+ 1284  cd work/tcs/
+ 1285  ls
+ 1286  cd docs/
+ 1287  code unit.md 
+ 1288  ps aufx |tail
+ 1289  ps aufx 
+ 1290  kill unit
+ 1291  pkill 58946
+ 1292  ps aufx 
+ 1293  pkill 47946
+ 1294  ps aufx 
+ 1295  exit
+ 1296  curl localhost:8080
+ 1297  clear
+ 1298  cd ..
+ 1299  cd unit/
+ 1300  cd demo/
+ 1301  ls
+ 1302  cd ..
+ 1303  curl -X PUT -d@demo/demo.json '127.0.0.1:4333'
+ 1304  curl -X PUT -d@demo/demo.json '127.0.0.1:4444'
+ 1305  cd ..
+ 1306  ls
+ 1307  cd nunit-go/
+ 1308  ls
+ 1309  hello
+ 1310  ./hello 
+ 1311  curl localhost:8080
+ 1312  cd ..
+ 1313  cd nunit-go/
+ 1314  code .
+ 1315  curl localhost:8080
+ 1316  go build 
+ 1317  curl localhost:8080
+ 1318  ./hello 
+ 1319  curl localhost:8080
+ 1320  cd .
+ 1321  cd ..
+ 1322  cd unit/
+ 1323  ls
+ 1324  cd demo/
+ 1325  ls
+ 1326  cd ..
+ 1327  ls
+ 1328  vi demo/demo.json 
+ 1329  curl -X PUT -d@demo/demo.json '127.0.0.1:4444'
+ 1330  cat demo/demo.json 
+ 1331  curl -X PUT -d@demo/demo.json '127.0.0.1:8500'
+ 1332  ./build/unitd --control 127.0.0.1:8500
+ 1333  ps aufx |tail
+ 1334  curl -X PUT -d@demo/demo.json '127.0.0.1:8500'
+ 1335  netstat -tulnp | grep unit
+ 1336  cd ..
+ 1337  cd work/tcs/
+ 1338  mkdir docs
+ 1339  cd docs/
+ 1340  touch unit.md
+ 1341  code unit.md 
+ 1342  cd
+ 1343  cd unit/
+ 1344  cd demo
+ 1345  cat demo.json 
+ 1346  cd $HOME/nunit-go
+ 1347  ls
+ 1348  ./hello 
+ 1349  curl -X PUT -d@demo/demo.json '127.0.0.1:8500/config'
+ 1350  cd -
+ 1351  curl -X PUT -d@demo/demo.json '127.0.0.1:8500/config'
+ 1352  cd ..
+ 1353  curl -X PUT -d@demo/demo.json '127.0.0.1:8500/config'
+ 1354  curl -X PUT -d@demo/demo.json '127.0.0.1:4444/config'
+ 1355  curl -X PUT -d@demo/demo.json '127.0.0.1:4445/config'
+ 1356  curl -X PUT -d@demo/demo.json '127.0.0.1:8500/config'
+ 1357  cat unit.log 
+ 1358  vi demo/demo.json 
+ 1359  curl -X PUT -d@demo/demo.json '127.0.0.1:8500/config'
+ 1360  curl -X PUT -d@demo/demo.json '127.0.0.1:8501/config'
+ 1361  curl -X PUT -d@demo/demo.json '127.0.0.1:8500/config'
+ 1362  ls -ld /tmp/
+ 1363  curl -X PUT -d@demo/demo.json '127.0.0.1:8500/config'
+ 1364  systemctl status unit
+ 1365  curl -X PUT 
+ 1366  curl -X PUT -d@demo/demo.json '127.0.0.1:8500/config'
+ 1367  vi demo/demo.json 
+ 1368  curl -X PUT -d@demo/demo.json '127.0.0.1:8500/config'
+ 1369  curl -X PUT -d@demo/demo.json '127.0.0.1:8500'
+ 1370  curl -X PUT -d@demo/demo.json '127.0.0.1:8500/config'
+ 1371  vi demo/demo.json 
+ 1372  cd ..
+ 1373  systemctl status unit
+ 1374  unit --help
+ 1375  cd unit/
+ 1376  ls
+ 1377  cd build/
+ 1378  ls
+ 1379  ./unitd -h
+ 1380  ./unitd --version
+ 1381  cd ..
+ 1382  cd work/tcs/
+ 1383  ls
+ 1384  touch unit.sh
+ 1385  vi unit.sh 
+ 1386  ls
+ 1387  chmod +x unit.sh 
+ 1388  ./unit.sh 
+ 1389  vi unit.sh 
+ 1390  ./unit.sh 
+ 1391  vi unit.sh 
+ 1392  cd /var/lib/
+ 1393  ls
+ 1394  cd -
+ 1395  vi unit.sh 
+ 1396  ./unit.sh 
+ 1397  cd
+ 1398  cd work/tcs/
+ 1399  cd nunit-go/
+ 1400  ls
+ 1401  go build
+ 1402  cd ..
+ 1403  vi unit.sh 
+ 1404  curl localhost:8080
+ 1405  ./unit.sh 
+ 1406  curl localhost:8080
+ 1407  cd nunit-go/
+ 1408  code .
+ 1409  go build
+ 1410  cd ..
+ 1411  ./unit.sh 
+ 1412  curl localhost:8080
+ 1413  exit
+ 1414  curl localhost:8080
+ 1415  cat app.go 
+ 1416  exit
+ 1417  cd unit/
+ 1418  ls
+ 1419  ./configure go
+ 1420  export $GOPATH=/home/drax/unit/go
+ 1421  export $GOPATH = /home/drax/unit/go
+ 1422  export $GOPATH=$HOME/unit/go
+ 1423  export $GOPATH $HOME/unit/go
+ 1424  export $GOPATH=$HOME/unit/go
+ 1425  echo $GOPATH
+ 1426  go env
+ 1427  cd ..
+ 1428  vi .profile 
+ 1429  source .profile 
+ 1430  vi .profile 
+ 1431  source .profile 
+ 1432  clear
+ 1433  cd unit/
+ 1434  make all
+ 1435  cd build/
+ 1436  ls
+ 1437  ./unitd --control 127.0.0.1:4444
+ 1438  curl localhost:4444
+ 1439  cd ../
+ 1440  ls
+ 1441  cd demo/dem
+ 1442  cd demo/
+ 1443  ls
+ 1444  vi demo.json 
+ 1445  cd ..
+ 1446  cp ~/work/tcs/nunit-go/ /
+ 1447  cp -r ~/work/tcs/nunit-go/ ~/
+ 1448  ls
+ 1449  cd nunit-go/
+ 1450  ls
+ 1451  go build
+ 1452  code .
+ 1453  go get unit.nginx.org/go
+ 1454  cd
+ 1455  sudo apt update
+ 1456  sudo apt install unit
+ 1457  apt install unit-dev unit-go unit-jsc11 unit-jsc15 unit-jsc16 unit-jsc17               unit-perl unit-php unit-python2.7 unit-python3.9 unit-ruby
+ 1458  sudo apt install unit-dev unit-go unit-jsc11 unit-jsc15 unit-jsc16 unit-jsc17               unit-perl unit-php unit-python2.7 unit-python3.9 unit-ruby
+ 1459  sudo apt install unit-dev unit-go
+ 1460  go get unit.nginx.org/go
+ 1461  cd nunit-go/
+ 1462  go build
+ 1463  ./hello 
+ 1464  go build
+ 1465  ./hello 
+ 1466  cd /var/
+ 1467  ls
+ 1468  cd lib/
+ 1469  ls
+ 1470  cd ..
+ 1471  ls
+ 1472  cd ..
+ 1473  ls
+ 1474  cd bin/
+ 1475  ls
+ 1476  cd ..
+ 1477  ls
+ 1478  cd srv/
+ 1479  ls
+ 1480  ll
+ 1481  cd /usr/
+ 1482  ls
+ 1483  cd ..
+ 1484  ls
+ 1485  cd bin/
+ 1486  ls
+ 1487  systemctl status unit
+ 1488  systemctl start unit
+ 1489  systemctl status unit
+ 1490  ls
+ 1491  unit
+ 1492  cd ..
+ 1493  ls
+ 1494  cd /etc/
+ 1495  ls
+ 1496  cd ..
+ 1497  ls
+ 1498  cd lib
+ 1499  ls
+ 1500  cd ..
+ 1501  cd var/
+ 1502  ls
+ 1503  cd lib/
+ 1504  ls
+ 1505  cd ..
+ 1506  ls
+ 1507  cd run/
+ 1508  ls
+ 1509  exit
+ 1510  vagrant ssh
+ 1511  exit
+ 1512  cd work/tcs/
+ 1513  ls
+ 1514  mkdir vagrant
+ 1515  cd vagrant/
+ 1516  vagrant init
+ 1517  vagrant upl
+ 1518  vagrant up
+ 1519  ls
+ 1520  vagrant up
+ 1521  vagrant up -h
+ 1522  vagrant up 
+ 1523  vi Vagrantfile 
+ 1524  vagrant init -h
+ 1525  rm Vagrantfile 
+ 1526  vagrant box list
+ 1527  vagrant init hashicorp/bionic64
+ 1528  vagrant login
+ 1529  vagrant up
+ 1530  vagrant ssh
+ 1531  vagrant up
+ 1532  vagrant ssh
+ 1533  vagrant suspend
+ 1534  systemctl status unit
+ 1535  systemctl stop unit
+ 1536  exit
+ 1537  cd
+ 1538  cd weekend/vagrant_getting_started/
+ 1539  ls
+ 1540  vi Vagrantfile 
+ 1541  cp go1.16.6.linux-amd64.tar.gz ~/work/tcs/vagrant/
+ 1542  go env
+ 1543  go version
+ 1544  history
+ 1545  lsd
+ 1546  exa
+ 1547  zoxide
+ 1548  exit
+ 1549  cd ..
+ 1550  ls
+ 1551  exit
+ 1552  ssh 10.0.2.15
+ 1553  ssh 10.0.2.15 -u vagrant
+ 1554  ssh 10.0.2.15 vagrant@vagrant:2222
+ 1555  cd
+ 1556  vagrant ssh-config | grep IdentityFile
+ 1557  cd work/tcs/vagrant/
+ 1558  vagrant ssh-config | grep IdentityFile
+ 1559  cd
+ 1560  exit
+ 1561  cd
+ 1562  cd work/tcs/ls
+ 1563  cd work/tcs/
+ 1564  ls
+ 1565  cd vagrant/
+ 1566  vagrant up
+ 1567  vagrant ssh
+ 1568  exit
+ 1569  openssl version
+ 1570  python
+ 1571  python3
+ 1572  clear
+ 1573  sudo apt update
+ 1574  $ sudo apt install software-properties-common
+ 1575  sudo apt install software-properties-common
+ 1576  sudo add-apt-repository --yes --update ppa:ansible/ansible
+ 1577  sudo apt install ansible
+ 1578  ansible all -m ping --ask-pass
+ 1579  cd /etc/ansible/
+ 1580  ls
+ 1581  vi hosts 
+ 1582  sudo vi hosts 
+ 1583  ansible all -m ping --ask-pass
+ 1584  ansible all -m ping 
+ 1585  sudo vi hosts 
+ 1586  ansible all -m ping 
+ 1587  sudo vi hosts 
+ 1588  cd
+ 1589  reset
+ 1590  ls
+ 1591  cd work/tcs/
+ 1592  ls
+ 1593  cd docs/
+ 1594  ls
+ 1595  vi unit.md 
+ 1596  cat unit.md 
+ 1597  ls
+ 1598  remarkable unit.md 
+ 1599  cd
+ 1600  wget -qO - https://typora.io/linux/public-key.asc | sudo apt-key add -
+ 1601  sudo add-apt-repository 'deb https://typora.io/linux ./'
+ 1602  sudo apt update
+ 1603  sudo apt-get install typora
+ 1604  typora
+ 1605  sudo apt-get remove typora
+ 1606  sudo apt autoremove
+ 1607  cd work/tcs/vagrant/
+ 1608  cd ..
+ 1609  code docs/unit.md 
+ 1610  rm docs/nginxunit 
+ 1611  cd
+ 1612  ls
+ 1613  rm Hello\ How\ are\ you\ typora.md 
+ 1614  ls
+ 1615  cd -
+ 1616  ls
+ 1617  cd nunit-go/
+ 1618  code .
+ 1619  cd ..
+ 1620  cd docs/
+ 1621  cat unit.md 
+ 1622  cd ..
+ 1623  ls
+ 1624  cat unit.sh 
+ 1625  vi docs/unit.md 
+ 1626  code docs/unit.md 
+ 1627  cd 
+ 1628  cd work/flahmingo/
+ 1629  ls
+ 1630  code flahmingo-central/
+ 1631  cd flahmingo-central/
+ 1632  git pull origin main
+ 1633  exit
+ 1634  cd 
+ 1635  cd work/flahmingo/
+ 1636  cd otp_service/grpc_otp_service/
+ 1637  code .
+ 1638  cd
+ 1639  cd exit
+ 1640  exit
+ 1641  cd ..
+ 1642  cd vagrant/
+ 1643  vagrant ssh
+ 1644  exit
+ 1645  ps aufx |tail
+ 1646  systemctl status unit
+ 1647  systemctl start unit
+ 1648  systemctl status unit
+ 1649  ps aufx |tail
+ 1650  exa
+ 1651  exit
+ 1652  cd weekend/
+ 1653  ls
+ 1654  cd ..
+ 1655  ls
+ 1656  cd work/
+ 1657  ls
+ 1658  cd flahmingo/
+ 1659  ls
+ 1660  cd ..
+ 1661  ls
+ 1662  cd ..
+ 1663  clear
+ 1664  ls
+ 1665  cd github/
+ 1666  ls
+ 1667  cd ..
+ 1668  cd study/
+ 1669  ls
+ 1670  cat b19b349ae6bb90e5d2da78605c5c015b.info 
+ 1671  cd ..
+ 1672  cd weekend/
+ 1673  ls
+ 1674  cd amren1254.github.io/
+ 1675  ls
+ 1676  cd ..
+ 1677  ls
+ 1678  clear
+ 1679  ls
+ 1680  cat intro.txt 
+ 1681  clear
+ 1682  rm intro.txt 
+ 1683  ls
+ 1684  cd portfolio/
+ 1685  ls
+ 1686  cd ..
+ 1687  git clone git@github.com:amren1254/amren1254.git
+ 1688  ls
+ 1689  cd amren1254
+ 1690  lls
+ 1691  ls
+ 1692  code .
+ 1693  git status
+ 1694  git add pacman.svg 
+ 1695  git commit -m "testing:pacman"
+ 1696  git push origin main 
+ 1697  cd ..
+ 1698  cd amren1254.github.io/
+ 1699  code .
+ 1700  cd
+ 1701  sudo apt update
+ 1702  sudo apt upgrade
+ 1703  cd
+ 1704  ls
+ 1705  cd nunit-go/
+ 1706  ls
+ 1707  ./hello 
+ 1708  cat app.go 
+ 1709  clear
+ 1710  exit
+ 1711  cd
+ 1712  rm -rf nunit-go/
+ 1713  ls
+ 1714  curl localhost:8080/hello
+ 1715  clear
+ 1716  exit
+ 1717  curl localhost:3777
+ 1718  curl localhost:3777/ping
+ 1719  exit
+ 1720  curl localhost:3777/ping
+ 1721  exit
+ 1722  cd work/tcs/
+ 1723  ls
+ 1724  cd vagrant/
+ 1725  ls
+ 1726  vagrant up
+ 1727  vagrant ssh
+ 1728  exit
+ 1729  cd ..
+ 1730  ls
+ 1731  cd nunit-go/
+ 1732  code .
+ 1733  curl localhost:8080/hello
+ 1734  systemctl status unit
+ 1735  systectl start unit
+ 1736  systemctl start unit
+ 1737  curl localhost:8080/hello
+ 1738  ls
+ 1739  clear
+ 1740  ls
+ 1741  cd ..
+ 1742  ls
+ 1743  cat unit.sh 
+ 1744  cd gin-sovd/
+ 1745  ls
+ 1746  code .
+ 1747  go mod init ginsovd
+ 1748  go mod tidy
+ 1749  go build
+ 1750  ./ginsovd 
+ 1751  go build
+ 1752  ./ginsovd 
+ 1753  go build
+ 1754  ./ginsovd 
+ 1755  go build
+ 1756  ./ginsovd 
+ 1757  go build
+ 1758  ./ginsovd 
+ 1759  go build
+ 1760  ./ginsovd 
+ 1761  go build
+ 1762  ./ginsovd 
+ 1763  go build
+ 1764  ./ginsovd 
+ 1765  go build
+ 1766  ./ginsovd 
+ 1767  go build
+ 1768  ./ginsovd 
+ 1769  go build
+ 1770  ./ginsovd 
+ 1771  go build
+ 1772  ./ginsovd 
+ 1773  go build
+ 1774  ./ginsovd 
+ 1775  go build
+ 1776  ./ginsovd 
+ 1777  go build
+ 1778  ./ginsovd 
+ 1779  go build
+ 1780  ./ginsovd 
+ 1781  go build
+ 1782  ./ginsovd 
+ 1783  go build
+ 1784  ./ginsovd 
+ 1785  curl localhost:8080/hello
+ 1786  cd ..
+ 1787  cat unit.sh 
+ 1788  cd gin-sovd/
+ 1789  ls
+ 1790  cd nginx-unit/
+ 1791  ls
+ 1792  chmod +x nginx-setup.sh 
+ 1793  ./nginx-setup.sh 
+ 1794  curl localhost:8080/periodic
+ 1795  clear
+ 1796  exit
+ 1797  curl localhost:3777/periodic
+ 1798  exit
+ 1799  cd ~/Downloads/
+ 1800  cd Amrendra/
+ 1801  ls
+ 1802  curl file:///index.html
+ 1803  cd
+ 1804  cd work/tcs/vagrant/
+ 1805  ls
+ 1806  vagrant ssh
+ 1807  exit
+ 1808  systemctl status unit
+ 1809  systemctl start unit
+ 1810  systemctl status unit
+ 1811  ps aufx | tail
+ 1812  cd work/tcs/gin-sovd/
+ 1813  cd nginx-unit/
+ 1814  ls
+ 1815  ./nginx-setup.sh 
+ 1816  systemctl status unit
+ 1817  ./nginx-setup.sh 
+ 1818  ifconfig
+ 1819  ./nginx-setup.sh 
+ 1820  cd ..
+ 1821  ls
+ 1822  go build
+ 1823  ls
+ 1824  cd -
+ 1825  ./nginx-setup.sh 
+ 1826  ps aufx | tail
+ 1827  cd /var/log/
+ 1828  ls
+ 1829  sudo cat access.log 
+ 1830  cd -
+ 1831  ./nginx-setup.sh 
+ 1832  cd /var/run/
+ 1833  ls
+ 1834  ll
+ 1835  vi control.unit.sock 
+ 1836  cat control.unit.sock 
+ 1837  sudo cat control.unit.sock 
+ 1838  curl localhost:4777/periodic -v
+ 1839  exit
+ 1840  cd /var/log/
+ 1841  ls
+ 1842  cat access.log 
+ 1843  sudo cat access.log 
+ 1844  sudo cat access.log -v
+ 1845  ifconfig
+ 1846  sudo cat access.log -v
+ 1847  exit
+ 1848  cd ..
+ 1849  cd vag
+ 1850  cd ..
+ 1851  cd vagrant/
+ 1852  ls
+ 1853  vagrant ssh
+ 1854  exit
+ 1855  cd work/tcs/gin-sovd/nginx-unit/
+ 1856  ls
+ 1857  ./nginx-setup.sh 
+ 1858  systemctl stop unit
+ 1859  exit
+ 1860  cd work/flahmingo/
+ 1861  ls
+ 1862  git clone git@github.com:Flahmingo-Investments/mobile-app-v1.git
+ 1863  cd flahmingo-central/
+ 1864  ls
+ 1865  git pull origin main
+ 1866  cd ..
+ 1867  git clone git@github.com:Flahmingo-Investments/product-docs.git
+ 1868  git clone git@github.com:Flahmingo-Investments/Webhook-Handler.git
+ 1869  git clone git@github.com:Flahmingo-Investments/proto-repo.git
+ 1870  ls
+ 1871  git clone git@github.com:Flahmingo-Investments/trading-service.git
+ 1872  cd account-service/
+ 1873  ls
+ 1874  git pull origin main
+ 1875  cd ..
+ 1876  git clone git@github.com:Flahmingo-Investments/website.git
+ 1877  git clone git@github.com:Flahmingo-Investments/deprecated-mobile-app.git
+ 1878  cd demo
+ 1879  ls
+ 1880  git pull origin main
+ 1881  cd ..
+ 1882  git clone git@github.com:Flahmingo-Investments/hook.git
+ 1883  ls
+ 1884  git clone git@github.com:Flahmingo-Investments/notification-service.git
+ 1885  cd plaid_service/
+ 1886  ls
+ 1887  cd ..
+ 1888  git clone git@github.com:Flahmingo-Investments/plaidservice.git
+ 1889  git clone git@github.com:Flahmingo-Investments/logo_color_detect.git
+ 1890  cd documentation/
+ 1891  git pull origin main
+ 1892  ls
+ 1893  cd ..
+ 1894  cd otp_service/
+ 1895  git pull origin main
+ 1896  cd ..
+ 1897  cd mail_service/
+ 1898  git pull origin main
+ 1899  git status
+ 1900  git add
+ 1901  git add .
+ 1902  git status
+ 1903  git commit -m ":"
+ 1904  git pull origin main
+ 1905  cd ..
+ 1906  git clone git@github.com:Flahmingo-Investments/mail_service.git
+ 1907  git clone git@github.com:Flahmingo-Investments/gateway_service.git
+ 1908  git clone git@github.com:Flahmingo-Investments/viewer.git
+ 1909  ls
+ 1910  cd reg_service/
+ 1911  git pull origin main
+ 1912  git pull origin master
+ 1913  cd ..
+ 1914  cd account_service/
+ 1915  ls
+ 1916  git pull origin main
+ 1917  cd ..
+ 1918  git clone git@github.com:Flahmingo-Investments/identity.git
+ 1919  cd identity-service/
+ 1920  git pull origin main
+ 1921  cd ..
+ 1922  cd database_stuff/
+ 1923  git pull origin main
+ 1924  cd ..
+ 1925  git clone git@github.com:Flahmingo-Investments/ci.git
+ 1926  git clone git@github.com:Flahmingo-Investments/DonutChartWeb.git
+ 1927  ls
+ 1928  ll
+ 1929  cd ..
+ 1930  s
+ 1931  ls
+ 1932  cd tcs/
+ 1933  ls
+ 1934  cd
+ 1935  cd weekend/
+ 1936  ls
+ 1937  cd ..
+ 1938  ls
+ 1939  cd anuj/
+ 1940  ls
+ 1941  cd ..
+ 1942  cd github/
+ 1943  ls
+ 1944  cd ..
+ 1945  clear
+ 1946  ls
+ 1947  cd RESTAPI/
+ 1948  ls
+ 1949  cd ..
+ 1950  clear
+ 1951  ls
+ 1952  cd Revision/
+ 1953  ls
+ 1954  file AndrewNG/
+ 1955  file classes.py 
+ 1956  clear
+ 1957  ls
+ 1958  cat new_history.txt 
+ 1959  clear
+ 1960  ls
+ 1961  cd sp.
+ 1962  cat tool.go 
+ 1963  ls
+ 1964  rm tool.go 
+ 1965  ls
+ 1966  rm tool 
+ 1967  cat TYPING 
+ 1968  rm TYPING 
+ 1969  ls
+ 1970  clear
+ 1971  ls -l
+ 1972  ls -la
+ 1973  clear
+ 1974  ls -la
+ 1975  cd github/
+ 1976  ls
+ 1977  cat historyTOgithub.sh 
+ 1978  ./historyTOgithub.sh 
+ 1979  ls
+ 1980  clear
+ 1981  cat historyTOgithub.sh 
+ 1982  ls >> new_history.txt 
+ 1983  ls
+ 1984  cat new_history.txt 
+ 1985  rm new_history.txt 
+ 1986  ls
+ 1987  clear
+ 1988  ls >> new_history.txt 
+ 1989  ls
+ 1990  cat new_history.txt 
+ 1991  rm new_history.txt 
+ 1992  history >> new_history.txt
+ 1993  cat new_history.txt 
+ 1994  vi historyTOgithub.sh 
+ 1995  history >> new_history.txt
+ 1996  cat new_history.txt 
+ 1997  exit
+ 1998  cd Revision/
+ 1999  ls
+ 2000  cd github/
+ 2001  ls
+ 2002  cat new_history.txt 
+ 2003  history >> new_history.txt
 historyTOgithub.sh
 history.txt
 new_history.txt
