@@ -3002,3 +3002,7 @@ historyTOgithub.sh
 history.txt
 new_history.txt
 README.md
+historyTOgithub.sh
+history.txt
+new_history.txt
+README.md
